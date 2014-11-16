@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="saltedpasswords" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_phpass" xml:space="preserve" approved="yes">
+        <source>Portable PHP password hashing (phpass)</source>
+      <target state="translated">Portables PHP-Passwort-Hashing (phpass)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_md5" xml:space="preserve" approved="yes">
+        <source>MD5 salted hashing (secure)</source>
+      <target state="translated">MD5-salted Hashing (sicher)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.tx_saltedpasswords_salts_blowfish" xml:space="preserve" approved="yes">
+        <source>Blowfish salted hashing (advanced)</source>
+      <target state="translated">Blowfish-salted Hashing (erweitert)</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.phpasssalt" xml:space="preserve" approved="yes">
+        <source>Portable PHP password hashing (phpass)</source>
+      <target state="translated">Portables PHP-Passwort-Hashing (phpass)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.md5salt" xml:space="preserve" approved="yes">
+        <source>MD5 salted hashing (secure)</source>
+      <target state="translated">MD5-salted Hashing (sicher)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.title.blowfishsalt" xml:space="preserve" approved="yes">
+        <source>Blowfish salted hashing (advanced)</source>
+      <target state="translated">Blowfish-salted Hashing (erweitert)</target><note>100%</note></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.name" xml:space="preserve" approved="yes">
+        <source>Convert user passwords to salted hashes</source>
+      <target state="translated">Benutzerpasswörter zu saltedpasswords konvertieren</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.description" xml:space="preserve" approved="yes">
+        <source>Update all frontend and backend user passwords to salted hashes. This task deactivates itself when completed.</source>
+      <target state="translated">Alle Frontend- und Backend-Benutzerpasswörter zu saltedpasswords aktualisieren. Dieser Task deaktiviert sich nach Beendigung selbst.</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.numberOfRecords" xml:space="preserve" approved="yes">
+        <source>The number of records to process on each run</source>
+      <target state="translated">Die Anzahl zu bearbeitender Datensätze pro Durchlauf</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.invalidNumberOfRecords" xml:space="preserve" approved="yes">
+        <source>The number of records to process on each run must be greater than zero and numeric.</source>
+      <target state="translated">Die Anzahl zu bearbeitender Datensätze pro Durchlauf muss größer Null und numerisch sein.</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.canDeactivateSelf" xml:space="preserve" approved="yes">
+        <source>Deactivate if all records are converted</source>
+      <target state="translated">Deaktivieren sobald alle Datensätze konvertiert wurden</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.deactivateself" xml:space="preserve" approved="yes">
+        <source>Deactivate=</source>
+      <target state="translated">Deaktivieren=</target></trans-unit>
+      <trans-unit id="ext.saltedpasswords.tasks.bulkupdate.label.additionalinformation.numberofrecords" xml:space="preserve" approved="yes">
+        <source>Number of records=</source>
+      <target state="translated">Anzahl Datensätze=</target></trans-unit>
+    </body>
+  </file>
+</xliff>

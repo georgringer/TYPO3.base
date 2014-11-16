@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>locallang_be.xml</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!-- Page Tree Icons -->
+			<label index="pagetree.system">[System] Collection</label>
+			<label index="pagetree.menufolder">[System] Menu directory</label>
+
+			<!-- table classes -->
+			<label index="tableclasses.default">Default</label>
+			<label index="tableclasses.striped">Striped</label>
+			<label index="tableclasses.condensed">Condensed</label>
+
+			<label index="belayout.3col">3 columns</label>
+			<label index="belayout.2col">2 columns</label>
+			<label index="belayout.columns.main">Main content</label>
+			<label index="belayout.columns.left">Left side</label>
+			<label index="belayout.columns.right">Right side</label>
+
+			<!-- Content element: Header Layout -->
+			<label index="tt_content.header_layout.1">Header 1</label>
+			<label index="tt_content.header_layout.2">Header 2</label>
+			<label index="tt_content.header_layout.3">Header 3</label>
+			<label index="tt_content.header_layout.4">Header 4</label>
+			<label index="tt_content.header_layout.5">Header 5</label>
+
+			<!-- Content element: Layout -->
+			<label index="tt_content.layout.box-success">Box Success</label>
+			<label index="tt_content.layout.box-info">Box Information</label>
+			<label index="tt_content.layout.box-warning">Box Warning</label>
+			<label index="tt_content.layout.box-danger">Box Danger</label>
+
+			<!-- Content element: Section -->
+			<label index="tt_content.section.hidden">Hidden</label>
+			<label index="tt_content.section.visible-phone">Visible on phones</label>
+			<label index="tt_content.section.visible-tablet">Visible on tablets</label>
+			<label index="tt_content.section.hidden-desktop">Hidden on desktops</label>
+			<label index="tt_content.section.visible-desktop">Visible on desktops</label>
+		</languageKey>
+	</data>
+</T3locallang>

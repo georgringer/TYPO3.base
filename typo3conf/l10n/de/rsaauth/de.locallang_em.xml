@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="rsaauth.config.temporaryDirectory">Pfad zum temporären Verzeichnis: Dieses Verzeichnis wird temporäre Dateien zur Verschlüsselung/Entschlüsselung beinhalten. Es sollte außerhalb der Websitewurzel liegen und es sollte nicht /tmp sein. Verzeichnisberechtigungen sollten 0700 sein und der Besitzer sollte der Webserver-Benutzer sein. Wenn dieses Feld leer gelassen wird, wird typo3conf/ genutzt, was UNSICHER ist! Stellen Sie sicher, dass das gewählte Verzeichnis in open_basedir enthalten ist, wenn Sie diese Einstellung nutzen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

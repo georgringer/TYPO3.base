@@ -1,0 +1,31 @@
+<f:layout name="Default" />
+<f:section name="content">
+	<div class="row">
+		<div class="col-md-3 sidebar">
+			<f:cObject typoscriptObjectPath="lib.navigation.sidebar">
+				<ul class="list-group subnavi">
+					<li class="list-group-item"><a href="#">Detailseite 01</a></li>
+					<li class="list-group-item"><a href="#">Detailseite 02</a></li>
+					<li class="list-group-item"><a href="#">Detailseite 03</a></li>
+					<li class="list-group-item"><a href="#">Detailseite 04</a></li>
+					<li class="list-group-item "><a href="#">Detailseite 06</a></li>
+					<li class="list-group-item active"><a href="#">Detailseite 06</a>
+						<ul>
+							<li class="active"><a href="#">Subsite 01</a></li>
+							<li><a href="#">Subsite 02</a></li>
+							<li><a href="#">Subsite 03</a></li>
+						</ul>
+					</li>
+					<li class="list-group-item"><a href="#">Detailseite 07</a></li>
+					<li class="list-group-item"><a href="#">Detailseite 08</a></li>
+				</ul>
+			</f:cObject>
+		</div>
+		<div class="col-md-6">
+			<f:cObject typoscriptObjectPath="lib.content.main" />
+		</div>
+		<div class="col-md-3 sidebar">
+			<f:cObject typoscriptObjectPath="lib.content.right" />
+		</div>
+	</div>
+</f:section>

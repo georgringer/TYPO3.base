@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Erweiterungsmanager</label>
+      <label index="mlang_labels_tablabel">TYPO3-Erweiterungsmanager</label>
+      <label index="mlang_labels_tabdescr">Verwaltet TYPO3-Erweiterungen aus einem zentralen Repository. TYPO3-Erweiterungen beinhalten Plug-Ins, Module, Klassenerweiterungen, Konfigurationscode etc. &lt;br /&gt;&lt;em&gt;Zugriff nur für Administratoren!&lt;/em&gt;</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

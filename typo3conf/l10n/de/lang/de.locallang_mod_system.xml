@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Systemstatus beobachten und Systemparameter anpassen</label>
+      <label index="mlang_tabs_tab">System</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2013-07-04T16:35:47Z" product-name="documentation" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="documentation_manager" xml:space="preserve" approved="yes">
+        <source>Documentation Manager</source>
+      <target state="translated">Dokumentations-Manager</target></trans-unit>
+      <trans-unit id="documentation.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="documentation.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="documentation.shortcut" xml:space="preserve" approved="yes">
+        <source>Extension key</source>
+      <target state="translated">Erweiterungsschlüssel</target></trans-unit>
+      <trans-unit id="documentation.actions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Aktionen</target></trans-unit>
+      <trans-unit id="documentation.actions.download" xml:space="preserve" approved="yes">
+        <source>Download document</source>
+      <target state="translated">Dokument herunterladen</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document" xml:space="preserve" approved="yes">
+        <source>Document</source>
+      <target state="translated">Dokument</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document.package_key" xml:space="preserve" approved="yes">
+        <source>Package Key</source>
+      <target state="translated">Paketschlüssel</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document.extension_key" xml:space="preserve" approved="yes">
+        <source>Extension Key</source>
+      <target state="translated">Erweiterungsschlüssel</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document.version" xml:space="preserve" approved="yes">
+        <source>Version</source>
+      <target state="translated">Version</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_document.translations" xml:space="preserve" approved="yes">
+        <source>Translations</source>
+      <target state="translated">Übersetzungen</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation" xml:space="preserve" approved="yes">
+        <source>Document Translation</source>
+      <target state="translated">Dokument-Übersetzungen</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation.language" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation.description" xml:space="preserve" approved="yes">
+        <source>Description</source>
+      <target state="translated">Beschreibung</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documenttranslation.actions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Aktionen</target><note>100%</note></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documentformat" xml:space="preserve" approved="yes">
+        <source>Document Format</source>
+      <target state="translated">Dokumentformat</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documentformat.format" xml:space="preserve" approved="yes">
+        <source>Format</source>
+      <target state="translated">Format</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documentformat.path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pfad</target></trans-unit>
+      <trans-unit id="tx_documentation_domain_model_documentformat.format.title" xml:space="preserve" approved="yes">
+        <source>Show documentation as %s</source>
+      <target state="translated">Dokumentation anzeigen als %s</target></trans-unit>
+      <trans-unit id="showDocumentation" xml:space="preserve" approved="yes">
+        <source>Show Documentation</source>
+      <target state="translated">Dokumentation anzeigen</target></trans-unit>
+      <trans-unit id="downloadDocumentation" xml:space="preserve" approved="yes">
+        <source>Download Documentation</source>
+      <target state="translated">Dokumentation herunterladen</target></trans-unit>
+      <trans-unit id="searchTemplate.submitButton" xml:space="preserve" approved="yes">
+        <source>Go</source>
+      <target state="translated">Los</target></trans-unit>
+      <trans-unit id="downloadSucceeded" xml:space="preserve" approved="yes">
+        <source>The rendered documentation was downloaded successfully.</source>
+      <target state="translated">Die gerenderte Dokumentation wurde erfolgreich heruntergeladen.</target></trans-unit>
+      <trans-unit id="downloadFailed" xml:space="preserve" approved="yes">
+        <source>Download failed</source>
+      <target state="translated">Herunterladen fehlgeschlagen</target></trans-unit>
+      <trans-unit id="downloadFailedNoArchive" xml:space="preserve" approved="yes">
+        <source>No rendered documentation archive could be found on docs.typo3.org.</source>
+      <target state="translated">Kein Archiv mit gerenderter Dokumentation auf docs.typo3.org gefunden.</target></trans-unit>
+      <trans-unit id="downloadFailedDetails" xml:space="preserve" approved="yes">
+        <source>The documentation for "%s" could not be downloaded, because of the following error: %s (%d).</source>
+      <target state="translated">Die Dokumentation für "%s" konnte nicht heruntergeladen werden. Folgender Fehler ist aufgetreten: %s (%d).</target></trans-unit>
+    </body>
+  </file>
+</xliff>

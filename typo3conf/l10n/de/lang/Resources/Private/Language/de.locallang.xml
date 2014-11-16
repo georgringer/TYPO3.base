@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="state.error">Fehler</label>
+      <label index="state.notAvailable">Nicht verfügbar</label>
+      <label index="state.failed">Fehlgeschlagen</label>
+      <label index="state.upToDate">Aktuell</label>
+      <label index="state.invalid">Ungültig</label>
+      <label index="state.updated">Aktualisiert</label>
+      <label index="state.checking">Überprüfung...</label>
+      <label index="state.notChecked">Nicht überprüft</label>
+      <label index="button.update">Vom Repository aktualisieren</label>
+      <label index="button.cancel">Abbrechen</label>
+      <label index="header.module">Sprachverwaltung</label>
+      <label index="header.languageSelectionList">Sprachen</label>
+      <label index="header.translationUpdateList">Übersetzungen</label>
+      <label index="flashmessage.error">Fehler</label>
+      <label index="flashmessage.information">Information</label>
+      <label index="flashmessage.success">Erfolg</label>
+      <label index="flashmessage.multipleErrors">Mehrere Anfragen sind fehlgeschlagen. Bitte überprüfen Sie Ihre Internet-Verbindung!</label>
+      <label index="flashmessage.updateComplete">Die Aktualisierung der Übersetzungen wurde erfolgreich beendet.</label>
+      <label index="flashmessage.canceled">Der Prozess wurde abgebrochen.</label>
+      <label index="table.language">Sprache</label>
+      <label index="table.locale">Gebietsschema</label>
+      <label index="table.extension">Erweiterung</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

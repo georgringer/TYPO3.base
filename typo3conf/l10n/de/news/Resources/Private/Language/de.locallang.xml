@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="search-text">Es liegen %1$s Ergebnisse für "%2$s" vor.</label>
+      <label index="search-start">Suche starten</label>
+      <label index="search-noresult">Keine Nachrichten gefunden.</label>
+      <label index="search-subject">Nächste</label>
+      <label index="search-minimumDate"/>
+      <label index="search-maximumDate"/>
+      <label index="more-link">Weiterlesen</label>
+      <label index="back-link">Zurück</label>
+      <label index="related-news">Ähnliche Nachrichten</label>
+      <label index="related-files">Ähnliche Dateien</label>
+      <label index="related-links">Ähnliche Links</label>
+      <label index="author">erstellt von %s</label>
+      <label index="paginate_overall">Seite %s von %s.</label>
+      <label index="paginate_next">Nächste</label>
+      <label index="paginate_previous">Vorherige</label>
+      <label index="categories">Kategorien</label>
+      <label index="tags">Tags</label>
+      <label index="entry">Eintrag</label>
+      <label index="entries">Einträge</label>
+      <label index="month.01">Januar</label>
+      <label index="month.02">Februar</label>
+      <label index="month.03">März</label>
+      <label index="month.04">April</label>
+      <label index="month.05">Mai</label>
+      <label index="month.06">Juni</label>
+      <label index="month.07">Juli</label>
+      <label index="month.08">August</label>
+      <label index="month.09">September</label>
+      <label index="month.10">Oktober</label>
+      <label index="month.11">November</label>
+      <label index="month.12">Dezember</label>
+      <label index="day.1">Montag</label>
+      <label index="day.2">Dienstag</label>
+      <label index="day.3">Mittwoch</label>
+      <label index="day.4">Donnerstag</label>
+      <label index="day.5">Freitag</label>
+      <label index="day.6">Samstag</label>
+      <label index="day.7">Sonntag</label>
+      <label index="dateFormat">%d.%m.%Y</label>
+      <label index="list_nonewsfound">Keine Nachrichten verfügbar.</label>
+      <label index="list_nocategoriesfound">Keine Kategorien verfügbar.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

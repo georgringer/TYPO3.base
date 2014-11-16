@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="rtehtmlarea.config.noSpellCheckLanguages">Sprachen ohne Aspell: Liste der Sprachen, für die Aspell keine Rechtschreibkorrektur bietet (siehe http://aspell.net/man-html/Unsupported.html#Unsupported) und für die das htmlArea-Rechtschreibkorrektur-Plug-In daher deaktiviert wird.</label>
+      <label index="rtehtmlarea.config.AspellDirectory">Aspell-Pfad: Der Serverpfad, in dem Aspell installiert ist.</label>
+      <label index="rtehtmlarea.config.defaultConfiguration">Standardkonfigurationseinstellungen</label>
+      <label index="rtehtmlarea.config.enableImages">Bilder im RTE aktivieren: Wenn gesetzt, werden Bilder im RTE in den Standardkonfigurationen "Minmal" und "Typisch" aktiviert.</label>
+      <label index="rtehtmlarea.config.enableInlineElements">Zusätzliche Inline-Elemente aktivieren: Wenn gesetzt, werden zusätzliche Inline-Elemente für potentielle Benutzung aktiviert.</label>
+      <label index="rtehtmlarea.config.allowStyleAttribute">Funktionen aktivieren, die Style-Attribute verwenden: Wenn gesetzt, werden Funktionen, die Style-Attribute verwenden (textcolor, bgcolor, fontstyle, fontsize), für potentielle Benutzung aktiviert.</label>
+      <label index="rtehtmlarea.config.enableAccessibilityIcons">Barrierefreiheits-Symbole für Links aktivieren: Wenn gesetzt, werden vor Links Barrierefreiheits-Symbole angezeigt.</label>
+      <label index="rtehtmlarea.config.forceCommandMode">Befehlsoberfläche von Aspell erzwingen: Wenn gesetzt, wird die Rechtschreibkorrektur die Befehlsoberfläche von Aspell nutzen. Voraussichtlich. PHP muss mit pspell kompiliert sein, aber mit einer alten Version von Aspell.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

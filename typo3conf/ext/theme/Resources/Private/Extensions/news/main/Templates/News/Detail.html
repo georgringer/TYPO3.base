@@ -1,0 +1,168 @@
+{namespace n=Tx_News_ViewHelpers}
+
+<f:layout name="Detail.html" />
+
+<!--
+	=====================
+		News/Detail.html
+-->
+
+<f:section name="content">
+	<f:if condition="{newsItem}">
+		<f:then>
+			<div class="row">
+				<n:format.nothing>
+					<f:if condition="{newsItem.alternativeTitle}">
+						<f:then>
+							<n:titleTag>
+								<n:format.htmlentitiesDecode>{newsItem.alternativeTitle}</n:format.htmlentitiesDecode>
+							</n:titleTag>
+						</f:then>
+						<f:else>
+							<n:titleTag>
+								<n:format.htmlentitiesDecode>{newsItem.title}</n:format.htmlentitiesDecode>
+							</n:titleTag>
+						</f:else>
+					</f:if>
+					<f:render partial="Detail/Opengraph" arguments="{newsItem: newsItem, settings:settings}" />
+				</n:format.nothing>
+				<h1>{newsItem.title}</h1>
+
+				<div class="small">
+					<n:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</n:format.date>
+					<f:if condition="{newsItem.firstCategory}">
+						/{newsItem.firstCategory.title}
+					</f:if>
+				</div>
+
+				<f:if condition="{newsItem.tags}">
+					<div class="news-list-tags">
+						<f:for each="{newsItem.tags}" as="tag">
+							{tag.title}
+						</f:for>
+					</div>
+				</f:if>
+
+				<f:if condition="{newsItem.author}">
+					<div class="news-list-author">
+						<f:translate key="author" arguments="{0:newsItem.author}"></f:translate>
+					</div>
+				</f:if>
+
+				<f:if condition="{newsItem.teaser}">
+					<div class="teaser-text">
+						<f:format.html>{newsItem.teaser}</f:format.html>
+					</div>
+				</f:if>
+
+				<f:if condition="{newsItem.contentElements}">
+					<f:cObject typoscriptObjectPath="lib.tx_news.contentElementRendering">{newsItem.contentElementIdList}</f:cObject>
+				</f:if>
+
+				<div class="pull-right">
+					<f:render partial="Detail/FalMediaContainer" arguments="{media: newsItem.falMedia, settings:settings}" />
+				</div>
+
+				<div class="news-text-wrap">
+					<f:format.html>{newsItem.bodytext}</f:format.html>
+				</div>
+
+				<f:if condition="{settings.backPid}">
+					<div class="news-backlink-wrap">
+						<f:link.page pageUid="{settings.backPid}">
+							<f:translate key="back-link" />
+						</f:link.page>
+					</div>
+				</f:if>
+
+				<f:if condition="{settings.detail.showSocialShareButtons}">
+					<div class="facebook">
+						<div class="like">
+							<n:social.facebook.like></n:social.facebook.like>
+						</div>
+						<div class="share">
+							<n:social.facebook.share>Share</n:social.facebook.share>
+						</div>
+						<div class="twitter">
+							<n:social.twitter>Twitter</n:social.twitter>
+						</div>
+					</div>
+				</f:if>
+
+				<!-- related things -->
+				<div class="news-related-wrap">
+					<f:if condition="{newsItem.allRelatedSorted}">
+						<!-- Related news records -->
+						<div class="news-related news-related-news">
+							<h4>
+								<f:translate key="related-news" />
+							</h4>
+							<ul>
+								<f:for each="{newsItem.allRelatedSorted}" as="related">
+									<li>
+										<n:link newsItem="{related}" settings="{settings}">
+											{related.title}
+										</n:link>
+									</li>
+
+								</f:for>
+							</ul>
+						</div>
+					</f:if>
+
+					<f:if condition="{newsItem.falRelatedFiles}">
+						<!-- FAL related files -->
+						<div class="news-related news-related-files">
+							<h4>
+								<f:translate key="related-files" />
+							</h4>
+							<ul>
+								<f:for each="{newsItem.falRelatedFiles}" as="relatedFile">
+									<li>
+									<span class="news-related-files-link">
+										<n:format.fileDownload file="{relatedFile.originalResource.publicUrl}" configuration="{settings.relatedFiles.download}">
+											<f:if condition="{relatedFile.originalResource.title}">
+												<f:then>
+													{relatedFile.originalResource.title}
+												</f:then>
+												<f:else>
+													{relatedFile.originalResource.name}
+												</f:else>
+											</f:if>
+										</n:format.fileDownload>
+									</span>
+									<span class="news-related-files-size">
+										<n:format.fileSize fileSize="{relatedFile.originalResource.size}" format="{settings.relatedFiles.fileSizeLabels}" />
+									</span>
+									</li>
+								</f:for>
+							</ul>
+						</div>
+					</f:if>
+
+					<f:if condition="{newsItem.relatedLinks}">
+						<!-- Related links -->
+						<div class="news-related news-related-links">
+							<h4>
+								<f:translate key="related-links" />
+							</h4>
+							<ul>
+								<f:for each="{newsItem.relatedLinks}" as="relatedLink">
+									<li>
+										<f:link.page pageUid="{relatedLink.uri}" title="{relatedLink.title}" target="{n:targetLink(link:relatedLink.uri)}">
+											{f:if(condition: relatedLink.title, then: relatedLink.title, else: relatedLink.uri)}
+										</f:link.page>
+										<f:if condition="{relatedLink.description}"><span>{relatedLink.description}</span></f:if>
+									</li>
+								</f:for>
+							</ul>
+						</div>
+					</f:if>
+				</div>
+			</div>
+		</f:then>
+		<f:else>
+
+		</f:else>
+	</f:if>
+</f:section>

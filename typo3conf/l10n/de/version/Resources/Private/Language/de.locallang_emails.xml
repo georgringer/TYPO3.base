@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="subject">TYPO3 Hinweis für Arbeitsumgebung: Stufe für ###ELEMENT_NAME### geändert</label>
+      <label index="message">In der TYPO3 Website "###SITE_NAME###" (###SITE_URL###)
+in der Arbeitsumgebung "###WORKSPACE_TITLE###" (###WORKSPACE_UID###)
+hat sich die Stufe des Elements/der Elemente "###RECORD_TITLE###" (###ELEMENT_NAME###) im Seitenbaum an der Stelle "###RECORD_PATH###" geändert:
+
+=&gt; ###NEXT_STAGE###
+
+Kommentar des Nutzers:
+"###COMMENT###"
+
+Stufe wurde geändert von ###USER_FULLNAME### (Benutzername: ###USER_USERNAME###)</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

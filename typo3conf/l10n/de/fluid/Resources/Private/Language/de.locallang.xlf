@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-03-30T23:43:57Z" product-name="fluid" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="widget.pagination.previous" xml:space="preserve" approved="yes">
+        <source>previous</source>
+      <target state="translated">vorherige</target></trans-unit>
+      <trans-unit id="widget.pagination.next" xml:space="preserve" approved="yes">
+        <source>next</source>
+      <target state="translated">nächste</target></trans-unit>
+      <trans-unit id="widget.pagination.first" xml:space="preserve" approved="yes">
+        <source>first</source>
+      <target state="translated">erste</target></trans-unit>
+      <trans-unit id="widget.pagination.last" xml:space="preserve" approved="yes">
+        <source>last</source>
+      <target state="translated">letzte</target></trans-unit>
+      <trans-unit id="widget.pagination.records" xml:space="preserve" approved="yes">
+        <source>Records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="widget.pagination.page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Seite</target></trans-unit>
+      <trans-unit id="widget.pagination.refresh" xml:space="preserve" approved="yes">
+        <source>Refresh</source>
+      <target state="translated">Aktualisieren</target></trans-unit>
+    </body>
+  </file>
+</xliff>

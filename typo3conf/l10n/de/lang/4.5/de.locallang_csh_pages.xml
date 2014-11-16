@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Der Datensatz "Seite" repräsentiert üblicherweise eine Webseite in TYPO3. Alle Seiten haben eine ID (UID) über die sie verlinkt und referenziert werden können. Der Datensatz "Seite" selbst enthält jedoch nicht die Inhalte der Seite. Hierfür werden Datensätze vom Typ "Inhaltselement" verwendet.</label>
+      <label index=".details">Die Tabelle 'pages' ist das Rückgrat von TYPO3. Alle Datensätze, die im Hauptmodul von TYPO3 bearbeitet werden können, müssen zu einer Seite gehören. Es ist genau wie bei Dateien und Ordnern auf der Festplatte Ihres Computers. 
+
+&lt;b&gt;Der Seitenbaum&lt;/b&gt;
+Die Seiten werden in einer Baumstruktur angeordnet, die die Organisation Ihrer Website wiederspiegelt.
+
+&lt;p&gt;UID, PID und die Seitenbaum-Wurzel&lt;/b&gt;
+Alle Datenbankelemente haben ein Feld 'uid', die eine eindeutige Identifikationsnummer ist. Sie haben auch ein Feld "pid" (Seiten-ID), welche die ID der Seite enthält (= deren uid), zu der sie gehören. Wenn das "pid"-Feld Null ist, wird der Datensatz in der Wurzel-Seite angezeigt. Nur Administratoren ist der Zugriff auf die Wurzel-Seite erlaubt. Datensätze müssen so konfiguriert werden, dass sie entweder zu einer Seite gehören oder in der Wurzel gezeigt werden.
+
+&lt;b&gt;Speicherung der Datenbank-Datensätze&lt;/b&gt;
+Je nach "Typ" kann eine Seite auch ein allgemeiner Speicher für Datenbankelemente in TYPO3 sein. In diesem Fall ist sie nicht als eine Webseite verfügbar, sondern sie wird intern im Seitenbaum als ein Ort benutzt, um Elemente zu speichern wie z. B. Benutzer, Anmeldungen, usw. Solche Seiten sind in der Regel vom Typ "Ordner".</label>
+      <label index="_.seeAlso">xMOD_csh_corebe:pagetree,
+tt_content,
+Über Seiten | http://typo3.org/documentation/document-library/doc_tut_quickstart/Pagetree/</label>
+      <label index="_.image">EXT:lang/cshimages/pages_1.png,
+EXT:lang/cshimages/pages_2.png,</label>
+      <label index=".image_descr">Die wichtigsten Felder einer Seite sind die Markierung "verborgen" ("hidden"), der Typ der Seite ("doktype") und der Seitentitel.
+Seiten sind in TYPO3 in einem Seitenbaum organisiert. Das Bearbeitungsformular im vorherigen Screenshot bezieht sich auf die Seite "Intro" des Seitenbaums. Wie Sie sehen können ist sie der Wurzel des Baums zugeordnet und besitzt eine Reihe von Unterseiten.</label>
+      <label index="title.description">Geben Sie den Titel der Seite ein! Dieses Feld ist ein Pflichtfeld.</label>
+      <label index="title.details">Der Seitentitel repräsentiert die Seite im System, z.B. im Seitenbaum. Standardmäßig wird der Seitentitel gleichzeitig als Linktitel innerhalb der Webseite verwendet.
+Sie können den Seitentitel jederzeit ändern, ohne damit Links auf die Seite zu verändern; das System referenziert Seiten nämlich über ihre "uid" und nicht über den Seitentitel.
+In diesem Feld sind beliebige Zeichen erlaubt.</label>
+      <label index="_title.image">EXT:lang/cshimages/pages_3.png</label>
+      <label index="title.image_descr">Das Feld für den Titel der Seite ist mit einem kleinen "Pflichtfeld"-Symbol markiert: Sie &lt;b&gt;müssen&lt;/b&gt; einen Seitentitel eingeben, sonst können Sie die Seite nicht speichern!</label>
+      <label index="doktype.description">Der Seitentyp bestimmt, ob es sich bei der Seite um eine normale Webseite oder einen Verweis auf eine andere Seite handelt oder ob sie anderweitig intern genutzt wird.</label>
+      <label index="doktype.details">'Standard' ist der häufigste Seitentyp und wird normale Webseiten verwendet.
+'Ordner' ist ein Seitentyp. der nicht als Webseite dargestellt wird; stattdessen werden dort (beliebige) Datensätze Ihrer Wahl gespeichert.
+'Papierkorb' ist ein Mülleimer. Seiten und Datensätze in einem Papierkorb sind im Frontend nicht sichtbar.
+
+&lt;b&gt;Hinweis&lt;/b&gt; Jede Seitentyp wird durch ein eindeutiges Symbol gekennzeichnet. Die verfügbaren Seitentypen können für Benutzer eingeschränkt werden, so dass nicht alle oben beschriebenen Optionen sichtbar sind. Einige Datensätze können nur auf bestimmten Seitentypen gespeichert werden, aber jeder Datensatz kann in einem 'Ordner' gespeichert werden. 
+
+&lt;b&gt;$PAGES_TYPES[Technisch]&lt;/b&gt;
+Die Einschränkungen zu jedem Seitentyp sind im globalen Array $PAGES_TYPES definiert. Wenn Erweiterungen Tabellen zu TYPO3 hinzufügen, dann ist es eventuell notwendig, dass die ihre Tabellen in $PAGES_TYPES registrieren, so dass auf Seiten vom Typ "Standard" hinzugefügt werden können.</label>
+      <label index="_doktype.seeAlso">be_groups:pagetypes_select, 
+Über $PAGES_TYPES | http://typo3.org/documentation/document-library/doc_core_api/PAGES_TYPES/</label>
+      <label index="_doktype.image">EXT:lang/cshimages/pages_4.png</label>
+      <label index="doktype.image_descr">Dieser Ausschnitt des Seitenbaums zeigt einige normale Seiten (schwach gelbe Symbole, im oberen Teil). Der Papierkorb ("Garbage") mit seinem besonderen Symbol ist ebenfalls sichtbar. Die Seiten im Papierkorb werden auf der Website nicht angezeigt und sind Kandidaten für eine endgültige Löschung. Im unteren Teil sehen Sie (graue) "SysOrdner". Diese werden ebenfalls niemals als Webseiten angezeigt, sondern ermöglichen die Speicherung beliebiger Daten.</label>
+      <label index="TSconfig.description">Seiten-TSconfig.</label>
+      <label index="TSconfig.details"/>
+      <label index="TSconfig.syntax">Basis TypoScipt Syntax &lt;em&gt;ohne&lt;/em&gt; Konstanten.
+
+Es wird empfohlen, dass nur Admin-Benutzer Zugang zu diesem Bereich haben!</label>
+      <label index="_TSconfig.seeAlso">_MOD_web_info:tsconfig_hierarchy, Mehr über Seiten-TSconfig | http://typo3.org/documentation/document-library/doc_core_tsconfig/Page_TSconfig/</label>
+      <label index="_TSconfig.image">EXT:lang/cshimages/pages_5.png</label>
+      <label index="TSconfig.image_descr"/>
+      <label index="php_tree_stop.description">Stoppt die Darstellung des Seitenbaums in der Navigation und in Listen.</label>
+      <label index="php_tree_stop.details"/>
+      <label index="_php_tree_stop.seeAlso">_MOD_web_info:pagetree_overview</label>
+      <label index="_php_tree_stop.image">EXT:lang/cshimages/pages_8.png,
+EXT:lang/cshimages/pages_6.png,
+EXT:lang/cshimages/pages_7.png</label>
+      <label index="php_tree_stop.image_descr"/>
+      <label index="storage_pid.description"/>
+      <label index="storage_pid.details"/>
+      <label index="_storage_pid.seeAlso"/>
+      <label index="editlock.description"/>
+      <label index="fe_login_mode.description"/>
+      <label index="fe_login_mode.details"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

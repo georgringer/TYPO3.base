@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="property.error">Validierungsfehler für die Eigenschaft "%s"</label>
+      <label index="validator.emailaddress.notvalid">Der eingegebene Wert ist keine gültige E-Mail-Adresse</label>
+      <label index="validator.stringlength.between">Die Länge der angegebenen Zeichenkette liegt nicht zwischen %s und %s Zeichen.</label>
+      <label index="validator.stringlength.less">Die Länge der angegebenen Zeichenkette ist kürzer als %s Zeichen.</label>
+      <label index="validator.string.notvalid">Es wird eine gültige Zeichenkette erwartet.</label>
+      <label index="validator.stringlength.exceed">Die Länge der angegebenen Zeichenkette übersteigt %s Zeichen.</label>
+      <label index="validator.alphanumeric.notvalid">Der angegebene Wert ist keine gültige alphanumerische Zeichenkette.</label>
+      <label index="validator.datetime.notvalid">Der angegebene Wert ist kein gültiges DateTime - Objekt: '%s'</label>
+      <label index="validator.genericobject.noobject">Der Wert ist kein Objekt.</label>
+      <label index="validator.float.notvalid">Der angegebene Wert ist keine gültige Gleitkommazahl.</label>
+      <label index="validator.text.notvalid">Der angegebene Wert ist kein gültiges Text-Objekt (enthält z.B. XML-Tags).</label>
+      <label index="validator.regularexpression.empty">Der reguläre Ausdruck ist leer.</label>
+      <label index="validator.regularexpression.nomatch">Der angegebene Wert stimmt nicht mit dem Muster überein.</label>
+      <label index="validator.regularexpression.error">Der reguläre Ausdruck '%s' enthält einen Fehler.</label>
+      <label index="validator.numberrange.notvalid">Der angegebene Wert ist keine gültige Zahl.</label>
+      <label index="validator.numberrange.range">Der angegebene Wert ist nicht im Bereich von %s bis %s.</label>
+      <label index="validator.notempty.null">Der angegebene Wert ist NULL.</label>
+      <label index="validator.notempty.empty">Der angegebene Wert ist leer.</label>
+      <label index="validator.number.notvalid">Der angegebene Wert ist keine gültige Zahl.</label>
+      <label index="validator.integer.notvalid">Der angegebene Wert ist kein gültiger Integer.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

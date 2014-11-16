@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Modul DBAL-Analyse</label>
+      <label index="Debug_log">Debug-Protokoll</label>
+      <label index="Cached_info">Gecachte Informationen</label>
+      <label index="SQL_check">SQL-Prüfung</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

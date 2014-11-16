@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="delete" xml:space="preserve">
+        <source>Delete:</source>
+      <target></target></trans-unit>
+      <trans-unit id="toTop" xml:space="preserve">
+        <source>To top:</source>
+      <target></target></trans-unit>
+      <trans-unit id="fileChanged" xml:space="preserve">
+        <source>File changed</source>
+      <target></target></trans-unit>
+      <trans-unit id="resourceUpdated" xml:space="preserve">
+        <source>Resource '%s' has been updated.</source>
+      <target></target></trans-unit>
+      <trans-unit id="templateInformation" xml:space="preserve">
+        <source>Template information</source>
+      <target></target></trans-unit>
+      <trans-unit id="title" xml:space="preserve">
+        <source>Title</source>
+      <target></target></trans-unit>
+      <trans-unit id="sitetitle" xml:space="preserve">
+        <source>Sitetitle</source>
+      <target></target></trans-unit>
+      <trans-unit id="description" xml:space="preserve">
+        <source>Description</source>
+      <target></target></trans-unit>
+      <trans-unit id="allowedExtensions" xml:space="preserve">
+        <source>Allowed extensions:</source>
+      <target></target></trans-unit>
+      <trans-unit id="maxFilesize" xml:space="preserve">
+        <source>Max filesize:</source>
+      <target></target></trans-unit>
+      <trans-unit id="uploadResource" xml:space="preserve">
+        <source>Upload resource</source>
+      <target></target></trans-unit>
+      <trans-unit id="newTextResource" xml:space="preserve">
+        <source>New text resource (enter name)</source>
+      <target></target></trans-unit>
+      <trans-unit id="copyResource" xml:space="preserve">
+        <source>Make a copy of resource:</source>
+      <target></target></trans-unit>
+      <trans-unit id="updateResourceList" xml:space="preserve">
+        <source>Update resource list</source>
+      <target></target></trans-unit>
+      <trans-unit id="constants" xml:space="preserve">
+        <source>Constants</source>
+      <target></target></trans-unit>
+      <trans-unit id="file" xml:space="preserve">
+        <source>File:</source>
+      <target></target></trans-unit>
+      <trans-unit id="editResource" xml:space="preserve">
+        <source>Edit Resource:</source>
+      <target></target></trans-unit>
+      <trans-unit id="filesizeExceeded" xml:space="preserve">
+        <source>Filesize exceeded %s KBytes</source>
+      <target></target></trans-unit>
+      <trans-unit id="notAllowed" xml:space="preserve">
+        <source>Files larger than %s KBytes are not allowed to be edited.</source>
+      <target></target></trans-unit>
+      <trans-unit id="setup" xml:space="preserve">
+        <source>Setup</source>
+      <target></target></trans-unit>
+      <trans-unit id="resources" xml:space="preserve">
+        <source>Resources</source>
+      <target></target></trans-unit>
+      <trans-unit id="editToView" xml:space="preserve">
+        <source>(edit to view, %s lines)</source>
+      <target></target></trans-unit>
+      <trans-unit id="editTemplateRecord" xml:space="preserve">
+        <source>Edit the whole template record</source>
+      <target></target></trans-unit>
+      <trans-unit id="includeTypoScriptFileContent" xml:space="preserve">
+        <source>Include TypoScript file content</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

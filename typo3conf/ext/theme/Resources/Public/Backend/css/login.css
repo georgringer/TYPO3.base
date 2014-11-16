@@ -1,0 +1,84 @@
+@import 'fonts/share.css';
+
+/* Background */
+body#typo3-index-php {
+	/*background: #017a95;*/
+}
+
+/* main frame */
+body#typo3-index-php #t3-login-form {
+	width: 100%;
+}
+
+#typo3-index-php .t3-login-logo {
+	margin-left: 50px;
+}
+
+body#typo3-index-php .t3-headline {
+	background: transparent;
+	border: 0;
+}
+
+.t3-login-box-body {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+body#typo3-index-php #t3-login-form-fields {
+}
+
+#typo3-index-php .t3-login-field input.t3-login-submit {
+	float: left;
+}
+
+#typo3-index-php .shadow {
+	padding: 15px 50px;
+}
+
+body#typo3-index-php .t3-headline h2 {
+	background: none;
+	color: #fff;
+	font-size: 16px !important;
+	font-family: 'Share-BoldRegular', Helvetica, sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-align: left;
+	padding: 10px 0 0 0;
+}
+
+body#typo3-index-php #t3-login-process h2 {
+	margin: 0;
+	color: #fff;
+	font-style: italic;
+	font-weight: normal;
+	background: url(../img/ajax-loader.gif) 0 center no-repeat;
+	padding-left: 60px;
+}
+
+body#typo3-index-php .t3-login-field {
+	margin-top: 5px;
+}
+
+body#typo3-index-php .t3-login-field .t3-login-clearInputField a {
+	display: none;
+}
+
+#typo3-index-php div#t3-copyright-notice, #t3-meta-links {
+	margin: 4px 30px;
+	border: none;
+}
+
+#typo3-index-php div#t3-copyright-notice a,
+#typo3-index-php div#t3-copyright-notice a:hover {
+	/*color: #ccc;*/
+}
+
+/* Login Error */
+.t3-login-alert-error {
+	/*opacity: 0.9;*/
+	/*position: absolute;*/
+	/*top: -105px;*/
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="saltedpasswords.config.checkConfigurationFE">Überprüfung der Frontendkonfiguration</label>
+      <label index="saltedpasswords.config.checkConfigurationBE">Überprüfung der Backendkonfiguration</label>
+      <label index="saltedpasswords.config.FE.enabled">Im FE aktivieren: SaltedPasswords im Frontend aktivieren</label>
+      <label index="saltedpasswords.config.FE.saltedPWHashingMethod">Hash-Methode für das Frontend: Legt fest, welche Hash-Methode benutzt wird. Wählen Sie "Portables PHP-Passwort-Hashing", um mit anderen CMS kompatibel zu bleiben (z.B. Drupal oder WordPress). Wählen Sie "MD5-salted Hashing", um TYPO3-Passwörter für die Authentifizierung auf Betriebssystemebene wiederzuverwenden (andere Server können TYPO3-Passwörter verwenden). Wählen Sie "Blowfish-salted Hashing" für zusätzliche Sicherheit und um Passwörter auf Betriebssystemebene wiederzuverwenden (Blowfish wird nicht auf allen Systemen unterstützt).</label>
+      <label index="saltedpasswords.config.BE.saltedPWHashingMethod">Hash-Methode für das Backend: Legt fest, welche Hash-Methode benutzt wird. Wählen Sie "Portables PHP-Passwort-Hashing", um mit anderen CMS kompatibel zu bleiben (z.B. Drupal oder WordPress). Wählen Sie "MD5-salted Hashing", um TYPO3-Passwörter für die Authentifizierung auf Betriebssystemebene wiederzuverwenden (andere Server können TYPO3-Passwörter verwenden). Wählen Sie "Blowfish-salted Hashing" für zusätzliche Sicherheit und um Passwörter auf Betriebssystemebene wiederzuverwenden (Blowfish wird nicht auf allen Systemen unterstützt).</label>
+      <label index="saltedpasswords.config.checkConfigurationFE2">Überprüfung der Frontendkonfiguration</label>
+      <label index="saltedpasswords.config.FE.forceSalted">Saltedpasswords erzwingen: Benutzung von saltedpasswords erzwingen. Alte MD5-Hashes von Passwörtern werden nicht mehr funktionieren.</label>
+      <label index="saltedpasswords.config.FE.onlyAuthService">Exklusive Benutzung im FE: Wenn aktiviert und die Authentifizierung schlägt fehl, wird kein weiterer Dienst mehr probiert.</label>
+      <label index="saltedpasswords.config.FE.updatePasswd">Passwörter der FE-Benutzer aktualisieren: Vorhandene Passwörter der FE-Benutzer beibehalten, aber sie während der Authentifizierung automatisch zu saltedpasswords konvertieren (wird nicht funktionieren, wenn forceSalted gesetzt ist).</label>
+      <label index="saltedpasswords.config.checkConfigurationBE2">Überprüfung der Backendkonfiguration</label>
+      <label index="saltedpasswords.config.BE.forceSalted">Saltedpasswords erzwingen: Benutzung von saltedpasswords erzwingen. Alte MD5-Hashes von Passwörtern werden nicht mehr funktionieren.</label>
+      <label index="saltedpasswords.config.BE.onlyAuthService">Exklusive Benutzung im BE: Wenn aktiviert und die Authentifizierung schlägt fehl, wird kein weiterer Dienst mehr probiert.</label>
+      <label index="saltedpasswords.config.BE.updatePasswd">Passwörter der BE-Benutzer aktualisieren: Vorhandene Passwörter der BE-Benutzer beibehalten, aber sie während der Authentifizierung automatisch zu saltedpasswords konvertieren (wird nicht funktionieren, wenn forceSalted gesetzt ist).</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

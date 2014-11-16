@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab">Dokumentation</label>
+      <label index="mlang_labels_tabdescr">Backend-Modul zum Auflisten und Anzeigen der Dokumentation der geladenen Erweiterungen. Unterstützt auch individuelle Dokumente.</label>
+      <label index="mlang_labels_tablabel">Dokumentation</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

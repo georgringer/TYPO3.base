@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="activeSessions">Aktive Sitzungen</label>
+      <label index="userName">Benutzername</label>
+      <label index="realName">Name</label>
+      <label index="lastAccess">Letzter Zugriff</label>
+      <label index="ipAddress">IP-Adresse</label>
+      <label index="backendUserListing">Auflistung der Backend-Benutzer</label>
+      <label index="email">E-Mail</label>
+      <label index="admin">Administrator</label>
+      <label index="users">Benutzer</label>
+      <label index="yes">Ja</label>
+      <label index="no">Nein</label>
+      <label index="never">Nie</label>
+      <label index="disable">Deaktivieren</label>
+      <label index="startDateAndTime">Start</label>
+      <label index="endDateAndTime">Stop</label>
+      <label index="lastLogin">Letzte Anmeldung</label>
+      <label index="allowedLanguages">Beschränken auf Sprachen</label>
+      <label index="dbMountPoints">DB-Freigabepunkte</label>
+      <label index="fileMounts">Datei-Freigabepunkte</label>
+      <label index="disableIpLock">IP-Sperre deaktivieren</label>
+      <label index="compareBackendUsers">Backend-Benutzer vergleichen</label>
+      <label index="compareUserList">Benutzerliste vergleichen</label>
+      <label index="status">Status</label>
+      <label index="both">Beide</label>
+      <label index="any">Alle</label>
+      <label index="adminOnly">Nur Administratoren</label>
+      <label index="normalUserOnly">Nur normale Benutzer</label>
+      <label index="activeOnly">Nur aktive</label>
+      <label index="inactiveOnly">Nur inaktive</label>
+      <label index="loginBefore">Zuvor angemeldet</label>
+      <label index="neverLoggedIn">Nie zuvor angemeldet</label>
+      <label index="filter">Filtern</label>
+      <label index="reallyLogout">Wirklich abmelden:</label>
+      <label index="endSession">Sitzung beenden</label>
+      <label index="backendUsers">Backend-Benutzer</label>
+      <label index="onlineUsers">Benutzer, die online sind</label>
+      <label index="backendUserAdministration">Backend-Benutzer-Verwaltung</label>
+      <label index="backendUserGroup">Benutzergruppe</label>
+      <label index="backendUserGroups">Mitglied von Gruppen</label>
+      <label index="changeToMode">[Wechseln zu-Modus]</label>
+      <label index="switchBackMode">[Rückschalt-Modus]</label>
+      <label index="confirm">Backend-Benutzer %s tatsächlich löschen?</label>
+      <label index="section.compare">Vergleich</label>
+      <label index="compare">Vergleichen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

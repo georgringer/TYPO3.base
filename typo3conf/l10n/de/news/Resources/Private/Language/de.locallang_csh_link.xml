@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Link Datensatz</label>
+      <label index=".details">Relation zu anderen Seiten und Datensätzen.</label>
+      <label index="_.seeAlso">Mehr Informationen unter http://www.montagmorgen.at/</label>
+      <label index="hidden.description">Versteckte Datensätze werden im Frontend nicht dargestellt.</label>
+      <label index="title.description">Optionaler Titel eines Links.</label>
+      <label index="description.description">Beschreibung eines Links.</label>
+      <label index="uri.description">Link zu einer Website, Datei, ...</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

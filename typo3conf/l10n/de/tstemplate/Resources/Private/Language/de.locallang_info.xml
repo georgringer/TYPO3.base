@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="delete"/>
+      <label index="toTop"/>
+      <label index="fileChanged"/>
+      <label index="resourceUpdated"/>
+      <label index="templateInformation"/>
+      <label index="title"/>
+      <label index="sitetitle"/>
+      <label index="description"/>
+      <label index="allowedExtensions"/>
+      <label index="maxFilesize"/>
+      <label index="uploadResource"/>
+      <label index="newTextResource"/>
+      <label index="copyResource"/>
+      <label index="updateResourceList"/>
+      <label index="constants"/>
+      <label index="file"/>
+      <label index="editResource"/>
+      <label index="filesizeExceeded"/>
+      <label index="notAllowed"/>
+      <label index="setup"/>
+      <label index="resources"/>
+      <label index="editToView"/>
+      <label index="editTemplateRecord"/>
+      <label index="includeTypoScriptFileContent"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

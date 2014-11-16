@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Mediendatensatz</label>
+      <label index=".details">Relation zu Mediendatensätzen</label>
+      <label index="_.seeAlso">Mehr Information auf http://www.montagmorgen.at/</label>
+      <label index="hidden.description">Versteckte Elemente werden auf der Website nicht angezeigt.</label>
+      <label index="caption.description">Bildunterschrift des Medienelementes</label>
+      <label index="title.description">Titel des Medienelementes</label>
+      <label index="alt.description">Alternative Beschreibung</label>
+      <label index="type.description">Typ des Medienelementes. Zur Auswahl stehen: Bild, Video &amp; Audio und DAM</label>
+      <label index="showinpreview.description">Falls aktiviert, wird dieses Medienelement auch in der Listenansicht angezeigt.</label>
+      <label index="video.description">Geben Sie den Pfad zu einer Video oder Audio-Datei an. Dies kann entweder ein relativer Pfad sein (zum Beispiel fileadmin/video.flv) oder eine externe Url (zum Beispiel zu einem Video auf Youtube).</label>
+      <label index="media.description">Wählen Sie das Bild aus.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Backend-Benutzer</label>
+      <label index="mlang_labels_tabdescr">Administrator-Backend-Benutzer</label>
+      <label index="mlang_tabs_tab">Backend-Benutzer</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

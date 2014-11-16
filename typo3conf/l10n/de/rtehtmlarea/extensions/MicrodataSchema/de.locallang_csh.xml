@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Microdata</label>
+      <label index=".description">Die Microdata-Funktion erlaubt es, Microdata-Attribute von Elementen im RTE zu bearbeiten.</label>
+      <label index=".details"/>
+      <label index=".image">EXT:rtehtmlarea/extensions/EditElement/skin/images/element-edit.png,
+EXT:rtehtmlarea/extensions/MicrodataSchema/skin/images/microdata-show.gif</label>
+      <label index=".image_descr"/>
+      <label index=".seeAlso">xEXT_rtehtmlarea_EditElement,
+xEXT_rtehtmlarea_MicrodataSchema:Show_microdata,
+xEXT_rtehtmlarea_MicrodataSchema:currentItemType,
+xEXT_rtehtmlarea_MicrodataSchema:itemscope,
+xEXT_rtehtmlarea_MicrodataSchema:itemtype,
+xEXT_rtehtmlarea_MicrodataSchema:itemprop</label>
+      <label index="Show_microdata.alttitle">Microdata zeigen</label>
+      <label index="Show_microdata.image">EXT:rtehtmlarea/extensions/MicrodataSchema/skin/images/microdata-show.gif</label>
+      <label index="Show_microdata.image_descr">Symbol "Microdata anzeigen".</label>
+      <label index="Show_microdata.description"/>
+      <label index="Show_microdata.details">Anklicken der Schaltfläche "Microdata anzeigen" macht alle Microdata-Elemente zur Bearbeitung sichtbar oder, wenn sie aktuell sichtbar sind und die Schaltfläche als aktiv markiert ist, unsichtbar.
+Der Typ oder die Eigenschaft jedes Elements wird in Kleinbuchstaben vor dem Element angezeigt, das den Microdata-Wert bereitstellt.
+Das gilt nur während des Bearbeitens von Inhalten und hat keine Auswirkungen auf die Ausgabe im Frontend.</label>
+      <label index="currentItemType.alttitle"/>
+      <label index="currentItemType.description"/>
+      <label index="currentItemType.details"/>
+      <label index="itemprop.description"/>
+      <label index="itemprop.details"/>
+      <label index="itemscope.alttitle"/>
+      <label index="itemscope.description"/>
+      <label index="itemscope.details"/>
+      <label index="itemtype.alttitle">Elementtyp</label>
+      <label index="itemtype.description">Wählen Sie den Elementtyp, den Sie der aktuellen Auswahl zuweisen wollen.</label>
+      <label index="itemprop.alttitle"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

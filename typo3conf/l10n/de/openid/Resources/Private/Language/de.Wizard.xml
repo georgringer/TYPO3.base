@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title.error"/>
+      <label index="title.success"/>
+      <label index="error.cancelled"/>
+      <label index="error.general"/>
+      <label index="error.no-response"/>
+      <label index="error.setup"/>
+      <label index="youropenid"/>
+      <label index="addopenid"/>
+      <label index="html.title"/>
+      <label index="html.description"/>
+      <label index="html.openid_url"/>
+      <label index="html.submit"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

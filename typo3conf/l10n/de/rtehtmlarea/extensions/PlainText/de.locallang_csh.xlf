@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:35Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id=".alttitle" xml:space="preserve" approved="yes">
+        <source>htmlArea RTE &gt; Clean Paste</source>
+      <target state="translated">htmlArea RTE &gt; Bereinigtes Einfügen</target></trans-unit>
+      <trans-unit id=".description" xml:space="preserve" approved="yes">
+        <source>The Clean Paste feature offers options for cleaning content copied from external source before it gets pasted into the editing area.</source>
+      <target state="translated">Die Funktion &gt;Bereinigtes Einfügen&lt; bietet die Möglichkeit Inhalte aus externen Quellen zu bereinigen bevor sie in den Bearbeitungsbereich eingefügt werden.</target></trans-unit>
+      <trans-unit id=".details" xml:space="preserve">
+        <source>This feature is useful when pasting text that was copied to the clipboard from some external source.
+
+The "Clean paste" button allows to toggle to clean paste mode and back to normal paste mode.
+Clicking on the "Clean paste" button puts the button "on". This action does not initiate any paste operation. But when the "clean paste" button is "on" in the RTE tool bar, whenever a paste operation is performed, content contained in the clipboard is transformed before being pasted into the editing area.
+Clicking again on the toggle button puts it "off". Any subsequent paste operation is performed as a normal paste.</source>
+      <target></target><alt-trans xml:space="preserve" origin="dkrupke"><target>Diese Funktion ist beim Einfügen von aus externer Quelle kopiertem Text aus der Zwischenablage hilfreich. Die Schaltfläche "Bereinigtes Einfügen" wechselt zwischen dem Modus für "Bereinigtes Einfügen" und dem Modus für "Normales Einfügen". Wenn die Schaltfläche "Bereinigtes Einfügen" angeklickt wird, so dass man sich im Modus für "Bereinigtes Einfügen" befindet, wird noch keine Einfüge-Aktion aus der Zwischenablage heraus ausgelöst. Es wurde damit lediglich der Modus "Bereinigtes Einfügen" in der RTE Werkzeugleiste aktiviert. Jede nun in diesem Modus vorgenommene Einfüge-Aktion führt dazu, dass der Inhalt der Zwischenablage zunächst im Hintergrund bereinigt wird und in diesem bereinigten Format in den Bearbeitungsbereich eingefügt wird. Ein erneuter Klick auf die Schaltfläche "Bereinigtes Einfügen" wechselt den Modus wieder zurück auf den Modus "Normales Einfügen". Jede Einfüge-Aktion im normalen Modus fügt den Inhalt normal (also unbereinigt) in den Bearbeitungsbereich ein.</target></alt-trans><alt-trans xml:space="preserve" origin="neichinger"><target>Diese Funktion ist hilfreich, wenn Sie Inhalte von externen Quellen über die Zwischenablage einfügen.
+
+Die Schlatfläche "Bereinigtes Einfügen" ermöglicht das Wechseln zwischen dem normalen Einfügemodus und dem Modus "Bereinigtes Einfügen".
+Auswahl der Schaltfläche "Bereinigtes Einfügen" aktiviert die Funktion. Diese Aktion startet aber keinen Einfügevorgang. Wenn die Schaltfläche "Bereinigtes Einfügen" aktiv ist, unterzieht das alle Inhalte, die Sie über die Zwischenablage einfügen wollen, einem Reinigungsprozess.
+Wenn Sie die Schaltfläche erneut anklicken, schalten Sie die Funktion wieder aus. Nachfolgende Einfüge-Vorgänge erfolgen wieder ohne Vorbehandlung.</target></alt-trans></trans-unit>
+      <trans-unit id=".image" xml:space="preserve" approved="yes">
+        <source>EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-toggle.gif,
+EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-behaviour.gif</source>
+        <target state="translated">EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-toggle.gif, EXT:rtehtmlarea/extensions/PlainText/skin/images/paste-behaviour.gif</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id=".image_descr" xml:space="preserve">
+        <source>"Clean paste" toggle icon in the editor tool bar. Clicking on it changes the behaviour of subsequent paste operations.
+"Clean Paste Behaviour" icon in the editor tool bar. Clicking on it opens a dialogue that allows to select an alternate paste behaviour.</source>
+      <target></target><alt-trans xml:space="preserve" origin="dkrupke"><target>Symbol in der RTE Werkzeugleiste zum Umschalten zwischen dem Modus "Bereinigtes Einfügen" und dem Modus "Normales Einfügen" aus der Zwischenablage. Durch Anklicken des Symbols wird zwischen den beiden Modi hin und her gewechselt. Der bei einer Einfüge-Aktion aktivierte Modus bestimmt, wie der Inhalt der Zwischenablage in den Bearbeitungsbereich eingefügt wird.</target></alt-trans></trans-unit>
+      <trans-unit id=".seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_PlainText:behaviour</source>
+        <target state="translated">xEXT_rtehtmlarea_PlainText:behaviour</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="behaviour.alttitle" xml:space="preserve" approved="yes">
+        <source>Select a paste behaviour</source>
+      <target state="translated">Ein Einfügeverhalten auswählen</target></trans-unit>
+      <trans-unit id="behaviour.description" xml:space="preserve" approved="yes">
+        <source>Select one of the three alternate paste behaviours.</source>
+      <target state="translated">Wählen Sie eines der drei unterschiedlichen Einfügeverhalten.</target></trans-unit>
+      <trans-unit id="behaviour.details" xml:space="preserve">
+        <source>When the "Clean paste" toggle is "on" in the RTE tool bar, the content may be tranformed according to the three following behaviours before being pasted:
+- plain text: all HTML markup is removed;
+- structure only: only structural HTML markup is retained, all format is removed;
+- structure and basic format: structural HTML markup is preserved as well as basic format provided by inline HTML elements.
+
+Which behaviour is activated when clicking the toggle button may be set either in the TYPO3 BE User Settings or in the "Clean Paste Behaviour" dialogue. If not set, it defaults to "Paste as plain text".
+The "Clean Paste Behaviour" dialogue is activated by clicking on the "Clean Paste Behaviour" button in the toolbar of the RTE.</source>
+      <target></target><alt-trans xml:space="preserve" origin="hugoist"><target>Wenn der "Clean paste" Umschalter in der RTE-Toolbar auf "on" steht, wird der Inhalt entsprechend der drei folgenden Arten umgewandelt, bevor er eingefügt wird:
+-Klartext: alle HTML-Elemente sind entfernt;
+-nur Struktur: nur die strukturellen HTML-Elemente bleiben erhalten, alle Formatierungen sind entfernt;
+-Struktur und grundlegende Formatierungen: strukturelle HTML-Elemente bleiben erhalten, wie grundlegende Formatierungen durch HTML-Elemente. 
+
+Welche Art aktiviert wird, wenn der Umschaltbutton betätigt wird, kann in den TYPO3 BE Nutzereinstellungen oder im  "Clean Paste Behaviour"-Dialog eingestellt werden. Wenn nichts eingestellt ist, ist es standardmäßig "Klartext".
+Der "Clean Paste Behaviour"-Dialog wird durch Klicken auf den "Clean Paste Behaviour"-Button in der RTE-Toolbar aktiviert.</target></alt-trans></trans-unit>
+      <trans-unit id="behaviour.seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_PlainText:plainText,xEXT_rtehtmlarea_PlainText:pasteStructure,xEXT_rtehtmlarea_PlainText:pasteFormat,_MOD_user_setup</source>
+        <target state="translated">xEXT_rtehtmlarea_PlainText:plainText,xEXT_rtehtmlarea_PlainText:pasteStructure,xEXT_rtehtmlarea_PlainText:pasteFormat,_MOD_user_setup</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="plainText.alttitle" xml:space="preserve" approved="yes">
+        <source>Paste as plain text</source>
+      <target state="translated">Als Klartext einfügen</target></trans-unit>
+      <trans-unit id="plainText.description" xml:space="preserve" approved="yes">
+        <source>When this paste behaviour is enabled, all HTML markup is removed before content is pasted in the editing area.</source>
+      <target state="translated">Wenn dieses Einfügeverhalten aktiviert ist, werden alle HTML-Auszeichungen vor dem Einfügen in den Bearbeitungsbereich entfernt.</target></trans-unit>
+      <trans-unit id="plainText.seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_PlainText:behaviour</source>
+        <target state="translated">xEXT_rtehtmlarea_PlainText:behaviour</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="pasteStructure.alttitle" xml:space="preserve" approved="yes">
+        <source>Paste structure only</source>
+      <target state="translated">Nur die Struktur einfügen</target></trans-unit>
+      <trans-unit id="pasteStructure.description" xml:space="preserve">
+        <source>When this paste behaviour is enabled and content is pasted in the editing area, only structural HTML markup is retained, all format is removed.</source>
+      <target></target><alt-trans xml:space="preserve" origin="dkrupke"><target>Wenn dieses Einfüge-Verhalten aktiviert ist, werden beim Einfügen von Inhalten aus der Zwischenablage nur strukturspezifische HTML-Befehle beibehalten. Alle formatierungsspezifischen HTML-Befehle werden entfernt.</target></alt-trans><alt-trans xml:space="preserve" origin="maxhb"><target>Wenn dieses Einfüge-Verhalten aktiviert ist, wird beim Einfügen von Inhalten aus der Zwischenablage nur die Struktur übernommen, Formatierungen werden entfernt.</target></alt-trans><alt-trans xml:space="preserve" origin="neichinger"><target>Ist dieses Einfüge-Verhalten aktiviert, bleiben HTML-Struktur-Befehle erhalten und alle sonstigen Formatierungen werden entfernt.</target></alt-trans></trans-unit>
+      <trans-unit id="pasteStructure.details" xml:space="preserve">
+        <source>By default, "Structure only" means that:
+- only the following HTML elements are retained: a, p, h[0-6], pre, address, article, aside, blockquote, div, footer, header, nav, section, hr, br, table, thead, tbody, tfoot, caption, tr, th, td, ul, ol, dl, li, dt, dd;
+- the following HTML attributes are removed: id, style, class, lang, align, valign, bgcolor, color, border, face, any attribute starting with "on", and any attribute containing ":".
+
+These defaults may be modified in Page TSConfig.</source>
+      <target></target><alt-trans xml:space="preserve" origin="manne."><target>In der Standardeinstellung bedeutet "nur Struktur", dass:
+- nur folgende HTML-Elemente beibehalten bleiben: a, p, h[0-6], pre, address, blockquote, div, hr, br, table, thead, tbody, tfoot, caption, tr, th, td, ul, ol, dl, li, dt, dd.
+- die folgenden HTML-Attribute werden entfernt: id, style, class, lang, align, valign, bgcolor, color, border, face, alle mit "on" beginnende Attribute und alle Attribute, die ein ":" beinhalten.
+
+Diese Vorgaben können per Seiten-TSConfig angepasst werden.</target></alt-trans><alt-trans xml:space="preserve" origin="maxhb"><target>In der Standardeinstellung bedeutet "nur Struktur", dass nur die folgenden HTML-Elemente beibehalten werden: a, p, h[0-6], pre, address, blockquote, div, hr, br, table, thead, tbody, tfoot, caption, tr, th, td, ul, ol, dl, li, dt, dd. Die folgenden HTML-Attribute werden entfernt: id, style, class, lang, align, valign, bgcolor, color, border, face, alle Attribute, die mit "on" beginnen und alle Attribute, die ein ":" beinhalten. Diese Vorgaben können per Seiten-TSConfig angepasst werden.</target></alt-trans></trans-unit>
+      <trans-unit id="pasteStructure.seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_PlainText:behaviour</source>
+        <target state="translated">xEXT_rtehtmlarea_PlainText:behaviour</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="pasteFormat.alttitle" xml:space="preserve" approved="yes">
+        <source>Paste structure and basic format</source>
+      <target state="translated">Struktur und Grundformatierung einfügen</target></trans-unit>
+      <trans-unit id="pasteFormat.description" xml:space="preserve">
+        <source>When this paste behaviour is enabled and content is pasted in the editing area, structural HTML markup is preserved as well as basic format provided by inline HTML elements.</source>
+      <target></target><alt-trans xml:space="preserve" origin="maxhb"><target>Wenn dieses Einfüge-Verhalten aktiviert ist, dann werden beim Einfügen von Inhalten in das Bearbeitungsfeld sowohl die HTML-Struktur als auch grundlegende Formatierungen durch HTML-Inline-Elemente beibehalten</target></alt-trans></trans-unit>
+      <trans-unit id="pasteFormat.details" xml:space="preserve">
+        <source>By default, "Structure and basic format" means that:
+- the following HTML structural elements are retained: a, p, h[0-6], pre, address, article, aside, blockquote, div, footer, header, nav, section, hr, br, table, thead, tbody, tfoot, caption, tr, th, td, ul, ol, dl, li, dt, dd;
+- the following HTML inline elements are also retained: b, bdo, big, cite, code, del, dfn, em, i, ins, kbd, label, q, samp, small, strike, strong, sub, sup, tt, u, var;
+- the following HTML attributes are removed: id, style, class, lang, align, valign, bgcolor, color, border, face, any attribute starting with "on", and any attribute containing ":".
+
+These defaults may be modified in Page TSConfig.</source>
+      <target></target></trans-unit>
+      <trans-unit id="pasteFormat.seeAlso" xml:space="preserve" approved="yes">
+        <source>xEXT_rtehtmlarea_PlainText:behaviour</source>
+        <target state="translated">xEXT_rtehtmlarea_PlainText:behaviour</target><note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      <note>This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note></trans-unit>
+      <trans-unit id="pasteInPastingPad.description" xml:space="preserve">
+        <source>Contents pasted into this pasting pad will be cleaned. Click OK to insert the cleaned contents into the RTE editing area.</source>
+      <target></target><alt-trans xml:space="preserve" origin="dkrupke"><target>Inhalte, die aus der Zwischenablage in diesen Einfügebereich eingefügt werden, werden bereinigt. Bestätigen Sie mit der Schaltfläche "OK" das Einfügen der bereinigten Inhalte in den RTE Bearbeitungsbereich.</target></alt-trans></trans-unit>
+      <trans-unit id="pasteInPastingPad.details" xml:space="preserve">
+        <source>When using Internet Explorer and when pasting behaviour "Paste structure only" or "Paste structure and format" is enabled, contents must first be pasted into this pasting pad so that they can be cleaned before being inserted into the RTE editing area.</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

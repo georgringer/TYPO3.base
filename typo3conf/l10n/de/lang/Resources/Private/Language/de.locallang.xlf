@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-08-31T17:54:12Z" product-name="lang" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="state.error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="state.notAvailable" xml:space="preserve" approved="yes">
+        <source>Not available</source>
+      <target state="translated">Nicht verfügbar</target></trans-unit>
+      <trans-unit id="state.failed" xml:space="preserve" approved="yes">
+        <source>Failed</source>
+      <target state="translated">Fehlgeschlagen</target></trans-unit>
+      <trans-unit id="state.upToDate" xml:space="preserve" approved="yes">
+        <source>Up to date</source>
+      <target state="translated">Aktuell</target></trans-unit>
+      <trans-unit id="state.invalid" xml:space="preserve" approved="yes">
+        <source>Invalid</source>
+      <target state="translated">Ungültig</target></trans-unit>
+      <trans-unit id="state.updated" xml:space="preserve" approved="yes">
+        <source>Updated</source>
+      <target state="translated">Aktualisiert</target></trans-unit>
+      <trans-unit id="state.checking" xml:space="preserve" approved="yes">
+        <source>Checking...</source>
+      <target state="translated">Überprüfung...</target></trans-unit>
+      <trans-unit id="state.notChecked" xml:space="preserve" approved="yes">
+        <source>Not checked</source>
+      <target state="translated">Nicht überprüft</target></trans-unit>
+      <trans-unit id="button.update" xml:space="preserve" approved="yes">
+        <source>Update from repository</source>
+      <target state="translated">Vom Repository aktualisieren</target></trans-unit>
+      <trans-unit id="button.cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Abbrechen</target></trans-unit>
+      <trans-unit id="header.module" xml:space="preserve" approved="yes">
+        <source>Language Administration</source>
+      <target state="translated">Sprachverwaltung</target></trans-unit>
+      <trans-unit id="header.languageSelectionList" xml:space="preserve" approved="yes">
+        <source>Languages</source>
+      <target state="translated">Sprachen</target></trans-unit>
+      <trans-unit id="header.translationUpdateList" xml:space="preserve" approved="yes">
+        <source>Translations</source>
+      <target state="translated">Übersetzungen</target></trans-unit>
+      <trans-unit id="flashmessage.error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="flashmessage.information" xml:space="preserve" approved="yes">
+        <source>Information</source>
+      <target state="translated">Information</target></trans-unit>
+      <trans-unit id="flashmessage.success" xml:space="preserve" approved="yes">
+        <source>Success</source>
+      <target state="translated">Erfolg</target></trans-unit>
+      <trans-unit id="flashmessage.multipleErrors" xml:space="preserve" approved="yes">
+        <source>Several requests have been failed. Please check your internet connection!</source>
+      <target state="translated">Mehrere Anfragen sind fehlgeschlagen. Bitte überprüfen Sie Ihre Internet-Verbindung!</target></trans-unit>
+      <trans-unit id="flashmessage.updateComplete" xml:space="preserve" approved="yes">
+        <source>The translation update has been successfully completed.</source>
+      <target state="translated">Die Aktualisierung der Übersetzungen wurde erfolgreich beendet.</target></trans-unit>
+      <trans-unit id="flashmessage.canceled" xml:space="preserve" approved="yes">
+        <source>The process has been canceled.</source>
+      <target state="translated">Der Prozess wurde abgebrochen.</target></trans-unit>
+      <trans-unit id="table.language" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="table.locale" xml:space="preserve" approved="yes">
+        <source>Locale</source>
+      <target state="translated">Gebietsschema</target></trans-unit>
+      <trans-unit id="table.extension" xml:space="preserve" approved="yes">
+        <source>Extension</source>
+      <target state="translated">Erweiterung</target></trans-unit>
+    </body>
+  </file>
+</xliff>

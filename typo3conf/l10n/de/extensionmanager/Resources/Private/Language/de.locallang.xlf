@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="workspaces" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="extensionManager" xml:space="preserve" approved="yes">
+        <source>Extension Manager</source>
+      <target state="translated">Erweiterungsmanager</target></trans-unit>
+      <trans-unit id="manageExtensions" xml:space="preserve" approved="yes">
+        <source>Manage Extensions</source>
+      <target state="translated">Erweiterungen verwalten</target></trans-unit>
+      <trans-unit id="installExtension" xml:space="preserve">
+        <source>Install Extension</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Installiere Extension</target></alt-trans></trans-unit>
+      <trans-unit id="getExtensions" xml:space="preserve" approved="yes">
+        <source>Get Extensions</source>
+      <target state="translated">Erweiterungen hinzufügen</target></trans-unit>
+      <trans-unit id="showAllVersions" xml:space="preserve" approved="yes">
+        <source>Show all versions of</source>
+      <target state="translated">Zeige alle Versionen von</target></trans-unit>
+      <trans-unit id="extConfTemplate.headline" xml:space="preserve" approved="yes">
+        <source>Configure Extension</source>
+      <target state="translated">Erweiterung konfigurieren</target></trans-unit>
+      <trans-unit id="extConfTemplate.other" xml:space="preserve" approved="yes">
+        <source>Other</source>
+      <target state="translated">Andere</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.int+" xml:space="preserve" approved="yes">
+        <source>positive integer</source>
+      <target state="translated">positive Ganzzahl</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.int" xml:space="preserve" approved="yes">
+        <source>integer</source>
+      <target state="translated">Ganzzahl</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.integer" xml:space="preserve" approved="yes">
+        <source>integer</source>
+      <target state="translated">Ganzzahl</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.color" xml:space="preserve" approved="yes">
+        <source>color</source>
+      <target state="translated">Farbe</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.wrap" xml:space="preserve" approved="yes">
+        <source>wrap</source>
+      <target state="translated">Wrap</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.offset" xml:space="preserve" approved="yes">
+        <source>offset</source>
+      <target state="translated">Offset</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.options" xml:space="preserve" approved="yes">
+        <source>options</source>
+      <target state="translated">Optionen</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.boolean" xml:space="preserve" approved="yes">
+        <source>boolean</source>
+      <target state="translated">boolesch</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.user" xml:space="preserve" approved="yes">
+        <source>user</source>
+      <target state="translated">Benutzer</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.small" xml:space="preserve" approved="yes">
+        <source>small</source>
+      <target state="translated">Klein</target></trans-unit>
+      <trans-unit id="extConfTemplate.type.string" xml:space="preserve" approved="yes">
+        <source>string</source>
+      <target state="translated">String</target></trans-unit>
+      <trans-unit id="extConfTemplate.backToList" xml:space="preserve" approved="yes">
+        <source>Back to list</source>
+      <target state="translated">Zurück zur Liste</target></trans-unit>
+      <trans-unit id="updateScript.headline" xml:space="preserve" approved="yes">
+        <source>Update script for %s</source>
+      <target state="translated">Aktualisierungs-Skript für %s</target></trans-unit>
+      <trans-unit id="updateScript.none" xml:space="preserve" approved="yes">
+        <source>No update necessary.</source>
+      <target state="translated">Keine Aktualisierung notwendig.</target></trans-unit>
+      <trans-unit id="extensionList.clickToConfigure" xml:space="preserve" approved="yes">
+        <source>(Click to configure)</source>
+      <target state="translated">(Zum Konfigurieren klicken)</target></trans-unit>
+      <trans-unit id="extensionList.configure" xml:space="preserve" approved="yes">
+        <source>Configure</source>
+      <target state="translated">Konfigurieren</target></trans-unit>
+      <trans-unit id="extensionList.update.script" xml:space="preserve" approved="yes">
+        <source>Execute the update script</source>
+      <target state="translated">Aktualisierungs-Skript ausführen</target></trans-unit>
+      <trans-unit id="extensionList.downloadsql" xml:space="preserve" approved="yes">
+        <source>Download SQL Dump</source>
+      <target state="translated">SQL-Dump herunterladen</target></trans-unit>
+      <trans-unit id="extensionList.remove" xml:space="preserve" approved="yes">
+        <source>Remove</source>
+      <target state="translated">Entfernen</target></trans-unit>
+      <trans-unit id="extensionList.update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Aktualisieren</target></trans-unit>
+      <trans-unit id="extensionList.updateToVersion" xml:space="preserve" approved="yes">
+        <source>Update to version %s</source>
+      <target state="translated">Aktualisieren auf Version %s</target></trans-unit>
+      <trans-unit id="extensionList.updateDisabled" xml:space="preserve" approved="yes">
+        <source>An update is available but this operation is currently disabled</source>
+      <target state="translated">Eine Aktualisierung ist verfügbar, aber das Aktualisieren ist im Moment deaktiviert</target></trans-unit>
+      <trans-unit id="extensionList.deactivate" xml:space="preserve" approved="yes">
+        <source>Deactivate</source>
+      <target state="translated">Deaktivieren</target></trans-unit>
+      <trans-unit id="extensionList.activate" xml:space="preserve" approved="yes">
+        <source>Activate</source>
+      <target state="translated">Aktivieren</target></trans-unit>
+      <trans-unit id="extensionList.downloadzip" xml:space="preserve" approved="yes">
+        <source>Download as zip</source>
+      <target state="translated">Als ZIP herunterladen</target></trans-unit>
+      <trans-unit id="extensionList.uploadExtension" xml:space="preserve" approved="yes">
+        <source>Upload Extension .t3x/.zip</source>
+      <target state="translated">Erweiterung hochladen .t3x/.zip</target></trans-unit>
+      <trans-unit id="extensionList.overwriteExtension" xml:space="preserve" approved="yes">
+        <source>Overwrite</source>
+      <target state="translated">Überschreiben</target></trans-unit>
+      <trans-unit id="extensionList.overwritingDisabled" xml:space="preserve" approved="yes">
+        <source>Extension is already available and overwriting was not enabled</source>
+      <target state="translated">Die Erweiterung steht bereits zur Verfügung und Überschreiben war nicht aktiviert</target></trans-unit>
+      <trans-unit id="extensionList.loading" xml:space="preserve" approved="yes">
+        <source>Loading form...</source>
+      <target state="translated">Lade Formular...</target></trans-unit>
+      <trans-unit id="extensionList.header.update" xml:space="preserve" approved="yes">
+        <source>Upd.</source>
+      <target state="translated">Akt.</target></trans-unit>
+      <trans-unit id="extensionList.header.title.update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Aktualisierung</target></trans-unit>
+      <trans-unit id="extensionList.header.activate" xml:space="preserve" approved="yes">
+        <source>A/D</source>
+      <target state="translated">A/D</target></trans-unit>
+      <trans-unit id="extensionList.header.title.activate" xml:space="preserve" approved="yes">
+        <source>Activate / Deactivate</source>
+      <target state="translated">Aktivieren / Deaktivieren</target></trans-unit>
+      <trans-unit id="extensionList.header.extensionName" xml:space="preserve" approved="yes">
+        <source>Extension</source>
+      <target state="translated">Erweiterung</target></trans-unit>
+      <trans-unit id="extensionList.header.version" xml:space="preserve" approved="yes">
+        <source>Version</source>
+      <target state="translated">Version</target><note>100%</note></trans-unit>
+      <trans-unit id="extensionList.header.extensionKey" xml:space="preserve" approved="yes">
+        <source>Key</source>
+      <target state="translated">Schlüssel</target></trans-unit>
+      <trans-unit id="extensionList.header.extensionVersion" xml:space="preserve" approved="yes">
+        <source>Version</source>
+      <target state="translated">Version</target></trans-unit>
+      <trans-unit id="extensionList.header.extensionActions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Aktionen</target></trans-unit>
+      <trans-unit id="extensionList.header.extensionState" xml:space="preserve" approved="yes">
+        <source>State</source>
+      <target state="translated">Status</target></trans-unit>
+      <trans-unit id="extensionList.header.uploadComment" xml:space="preserve" approved="yes">
+        <source>Upload Comment</source>
+      <target state="translated">Hochladekommentar</target></trans-unit>
+      <trans-unit id="extensionList.header.lastUpdate" xml:space="preserve" approved="yes">
+        <source>Last Updated</source>
+      <target state="translated">Letzte Aktualisierung</target></trans-unit>
+      <trans-unit id="extensionList.header.description" xml:space="preserve" approved="yes">
+        <source>Description</source>
+      <target state="translated">Beschreibung</target></trans-unit>
+      <trans-unit id="extensionList.header.author" xml:space="preserve" approved="yes">
+        <source>Author</source>
+      <target state="translated">Autor</target></trans-unit>
+      <trans-unit id="searchTemplate.searchExtensions" xml:space="preserve" approved="yes">
+        <source>Search extensions</source>
+      <target state="translated">Erweiterungen suchen</target></trans-unit>
+      <trans-unit id="extensionList.search" xml:space="preserve" approved="yes">
+        <source>Search:</source>
+      <target state="translated">Suche:</target></trans-unit>
+      <trans-unit id="searchTemplate.submitButton" xml:space="preserve" approved="yes">
+        <source>Go</source>
+      <target state="translated">Absenden</target></trans-unit>
+      <trans-unit id="searchTemplate.resetSearchButton" xml:space="preserve" approved="yes">
+        <source>Reset Search</source>
+      <target state="translated">Suche zurücksetzen</target></trans-unit>
+      <trans-unit id="searchTemplate.yourSearch" xml:space="preserve" approved="yes">
+        <source>Your search</source>
+      <target state="translated">Ihre Suche</target></trans-unit>
+      <trans-unit id="searchTemplate.searchAgain" xml:space="preserve" approved="yes">
+        <source>Search again</source>
+      <target state="translated">Erneut suchen</target></trans-unit>
+      <trans-unit id="uploadTemplate.uploadButton" xml:space="preserve" approved="yes">
+        <source>Upload!</source>
+      <target state="translated">Hochladen!</target></trans-unit>
+      <trans-unit id="uploadTemplate.extensionLabel" xml:space="preserve" approved="yes">
+        <source>Extension</source>
+      <target state="translated">Erweiterung</target></trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.title" xml:space="preserve" approved="yes">
+        <source>Extension Removal</source>
+      <target state="translated">Erweiterung entfernen</target></trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.message" xml:space="preserve" approved="yes">
+        <source>The extension is currently installed. Uninstall extension?</source>
+      <target state="translated">Die Erweiterung ist aktuell installiert. Deinstallieren?</target></trans-unit>
+      <trans-unit id="extensionList.updateConfirmation.title" xml:space="preserve" approved="yes">
+        <source>Update?</source>
+      <target state="translated">Aktualisieren?</target></trans-unit>
+      <trans-unit id="extensionList.updateConfirmation.message" xml:space="preserve" approved="yes">
+        <source>Update Comments:</source>
+      <target state="translated">Aktualisierungskommentare:</target></trans-unit>
+      <trans-unit id="extensionList.updateConfirmation.questionVersionComments" xml:space="preserve" approved="yes">
+        <source>Version Comments</source>
+      <target state="translated">Versionskommentare</target></trans-unit>
+      <trans-unit id="extensionList.updateFlashMessage.title" xml:space="preserve" approved="yes">
+        <source>Extension Update</source>
+      <target state="translated">Erweiterungsaktualisierung</target></trans-unit>
+      <trans-unit id="extensionList.updateFlashMessage.message" xml:space="preserve" approved="yes">
+        <source>{0} updated!</source>
+      <target state="translated">{0} aktualisiert!</target></trans-unit>
+      <trans-unit id="extensionList.removalConfirmation.question" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to remove the extension?</source>
+      <target state="translated">Sind Sie sicher, dass Sie die Erweiterung entfernen möchten?</target></trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.title" xml:space="preserve">
+        <source>Please read this carefully</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Bitte sorgfältig lesen</target></alt-trans></trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.message" xml:space="preserve">
+        <source><![CDATA[
+					If you continue installing the extension, all dependency checks will be turned off.
+					<ul>
+						<li>Required extensions are tried to be fetched from TER (if they do not yet exist in the system)</li>
+						<li>Version dependency checks are skipped</li>
+					</ul>
+					<strong>
+						Be aware that an installation without dependency checks may turn your installation unusable.<br />
+						In such a case manual intervention is required.
+					</strong>
+				]]></source>
+      <target/></trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.question" xml:space="preserve">
+        <source>Are you sure you want to proceed?</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Sind Sie sicher, dass Sie fortsetzen möchten?</target></alt-trans></trans-unit>
+      <trans-unit id="dependencyCheck.unresolvedDependencies.proceed" xml:space="preserve">
+        <source>I know what I'm doing, install the extension!</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Ich weiß was ich tue, installiere die Extension!</target></alt-trans></trans-unit>
+      <trans-unit id="dependencyCheck.headline" xml:space="preserve">
+        <source>The following errors were found while trying to install "%s"</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Die folgenden Fehler wurden gefunden während der Installation von "%s"</target></alt-trans></trans-unit>
+      <trans-unit id="dependencyCheck.requiredExtension" xml:space="preserve">
+        <source>Required extension "%s":</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Notwendige Extension "%s"</target></alt-trans></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.headline" xml:space="preserve" approved="yes">
+        <source>The following dependencies have to be resolved before installation:
+
+
+				</source>
+      <target state="translated">Die folgenden Abhängigkeiten müssen vor der Installation aufgelöst werden:
+
+
+				</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.typeHeadline" xml:space="preserve" approved="yes">
+        <source>&lt;h3&gt;Extensions marked for %s:&lt;/h3&gt;
+%s
+
+
+				</source>
+      <target state="translated">&lt;h3&gt;Erweiterungen markiert für %s:&lt;/h3&gt;
+%s
+
+
+				</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.resolveAutomatically" xml:space="preserve" approved="yes">
+        <source>Shall these dependencies be resolved automatically?</source>
+      <target state="translated">Sollen diese Abhängigkeiten automatisch aufgelöst werden?</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.errorTitle" xml:space="preserve" approved="yes">
+        <source>Dependencies could not be resolved</source>
+      <target state="translated">Abhängigkeiten konnten nicht aufgelöst werden</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencies.errorMessage" xml:space="preserve" approved="yes">
+        <source>The dependencies of the following Extensions could not be resolved:</source>
+      <target state="translated">Die Abhängigkeiten der folgenden Erweiterungen konnten nicht aufgelöst werden:</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.download" xml:space="preserve" approved="yes">
+        <source>download</source>
+      <target state="translated">herunterladen</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.install" xml:space="preserve" approved="yes">
+        <source>install</source>
+      <target state="translated">installieren</target></trans-unit>
+      <trans-unit id="downloadExtension.dependencyType.update" xml:space="preserve">
+        <source>update</source>
+      <target>Aktualisieren</target><note from="translator">83%
+100%
+100%</note></trans-unit>
+      <trans-unit id="downloadExtension.updateExtension.error" xml:space="preserve">
+        <source>Error while updating extension</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Fehler während der Extension-Aktualisierung</target></alt-trans></trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadError.title" xml:space="preserve" approved="yes">
+        <source>Download Error</source>
+      <target state="translated">Fehler beim Herunterladen</target></trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.message" xml:space="preserve" approved="yes">
+        <source>Your installation of {0} was successful.</source>
+      <target state="translated">Die Installation von {0} war erfolgreich.</target></trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.header" xml:space="preserve" approved="yes">
+        <source>Log</source>
+      <target state="translated">Log</target></trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveDownloadSuccess.item" xml:space="preserve" approved="yes">
+        <source>Extensions</source>
+      <target state="translated">Erweiterungen</target></trans-unit>
+      <trans-unit id="extensionList.dependenciesResolveFlashMessage.title" xml:space="preserve" approved="yes">
+        <source>{0} installed.</source>
+      <target state="translated">{0} installiert.</target></trans-unit>
+      <trans-unit id="extensionList.uploadFlashMessage.title" xml:space="preserve" approved="yes">
+        <source>Extension Upload</source>
+      <target state="translated">Erweiterung hochladen</target></trans-unit>
+      <trans-unit id="extensionList.uploadFlashMessage.message" xml:space="preserve" approved="yes">
+        <source>%s was uploaded!</source>
+      <target state="translated">{0} hochgeladen!</target></trans-unit>
+      <trans-unit id="extensionList.installedFlashMessage.message" xml:space="preserve">
+        <source>%s was installed!</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>%s wurde installiert!</target></alt-trans></trans-unit>
+      <trans-unit id="extensionList.updateFromTerFlashMessage.title" xml:space="preserve" approved="yes">
+        <source>Update Extension List</source>
+      <target state="translated">Aktualisieren der Erweiterungsliste</target></trans-unit>
+      <trans-unit id="extensionList.downloadViewHelper.submit" xml:space="preserve" approved="yes">
+        <source>Import and Install</source>
+      <target state="translated">Importieren und installieren</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.label" xml:space="preserve" approved="yes">
+        <source>Show all versions</source>
+      <target state="translated">Zeige alle Versionen</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.extensionKey" xml:space="preserve" approved="yes">
+        <source>Extension key</source>
+      <target state="translated">Erweiterungsschlüssel</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.version" xml:space="preserve" approved="yes">
+        <source>Version</source>
+      <target state="translated">Version</target><note>100%</note></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.lastUploaded" xml:space="preserve" approved="yes">
+        <source>Last uploaded</source>
+      <target state="translated">Zuletzt hochgeladen</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.downloads" xml:space="preserve" approved="yes">
+        <source>Downloads</source>
+      <target state="translated">Downloads</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.category" xml:space="preserve" approved="yes">
+        <source>Category</source>
+      <target state="translated">Kategorie</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.manual" xml:space="preserve" approved="yes">
+        <source>Manual</source>
+      <target state="translated">Handbuch</target></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.author" xml:space="preserve" approved="yes">
+        <source>Author</source>
+      <target state="translated">Autor</target><note>100%</note></trans-unit>
+      <trans-unit id="extensionList.showAllVersions.readOnline" xml:space="preserve" approved="yes">
+        <source>Read online</source>
+      <target state="translated">Online lesen</target></trans-unit>
+      <trans-unit id="extensionList.remove.message" xml:space="preserve">
+        <source>Extension "%s" was removed successfully!</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Extension "%s" wurde erfolgreich entfernt!</target></alt-trans></trans-unit>
+      <trans-unit id="extensionList.distribution.key" xml:space="preserve" approved="yes">
+        <source>Key:</source>
+      <target state="translated">Distributionsschlüssel:</target></trans-unit>
+      <trans-unit id="extensionList.distribution.author" xml:space="preserve" approved="yes">
+        <source>Author:</source>
+      <target state="translated">Autor:</target></trans-unit>
+      <trans-unit id="extensionList.distribution.title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="extensionList.distribution.version" xml:space="preserve" approved="yes">
+        <source>Version:</source>
+      <target state="translated">Version:</target></trans-unit>
+      <trans-unit id="extensionList.distribution.downloads" xml:space="preserve" approved="yes">
+        <source>Downloads</source>
+      <target state="translated">Downloads</target><note>100%</note></trans-unit>
+      <trans-unit id="extensionList.distribution.lastUpdated" xml:space="preserve" approved="yes">
+        <source>Last Update:</source>
+      <target state="translated">Letzte Aktualisierung:</target></trans-unit>
+      <trans-unit id="extensionList.officialDistribution" xml:space="preserve" approved="yes">
+        <source>Official distribution</source>
+      <target state="translated">Offizielle Distribution</target></trans-unit>
+      <trans-unit id="distributions" xml:space="preserve" approved="yes">
+        <source>Get preconfigured distribution</source>
+      <target state="translated">Vorkonfigurierte Distribution erhalten</target></trans-unit>
+      <trans-unit id="extensionList.installDistribution" xml:space="preserve" approved="yes">
+        <source>Install</source>
+      <target state="translated">Distribution installieren</target></trans-unit>
+      <trans-unit id="extensionList.installImpexp" xml:space="preserve">
+        <source>Please install the Import/Export (impexp) extension to enable distribution support.</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Bitte installiere die Import/Export (impexp) Erweiterung für die Distributions Unterstützung.  </target></alt-trans></trans-unit>
+      <trans-unit id="distribution.installImpexp" xml:space="preserve">
+        <source>Install impexp</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Installiere impexp</target></alt-trans></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.label" xml:space="preserve" approved="yes">
+        <source>Retrieving Extension-List from TYPO3 Extension Repository (TER)</source>
+      <target state="translated">Empfangen der Erweiterungsliste aus dem TYPO3 Extension Repository (TER)</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.buttonLabel" xml:space="preserve" approved="yes">
+        <source>Update now</source>
+      <target state="translated">Jetzt aktualisieren</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.label" xml:space="preserve" approved="yes">
+        <source>Last update:</source>
+      <target state="translated">Letzte Aktualisierung:</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeSinceLastUpdateLabel" xml:space="preserve" approved="yes">
+        <source>Time since last update:</source>
+      <target state="translated">Zeit seit letzter Aktualisierung:</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noInfo" xml:space="preserve" approved="yes">
+        <source>unknown</source>
+      <target state="translated">unbekannt</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.fullTimeFormat" xml:space="preserve" approved="yes">
+        <source>Y-m-d H:i:s</source>
+      <target state="translated">H:i:s am d.m.Y</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.timeOfLastUpdate" xml:space="preserve" approved="yes">
+        <source>Time of last update: </source>
+      <target state="translated">Zeit der letzten Aktualisierung:</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.lastUpdate.noTimeOfLastUpdate" xml:space="preserve" approved="yes">
+        <source>No last update time known.</source>
+      <target state="translated">Zeit der letzten Aktualisierung unbekannt.</target></trans-unit>
+      <trans-unit id="extensionList.updateFromTer.never" xml:space="preserve" approved="yes">
+        <source>Never</source>
+      <target state="translated">Nie</target></trans-unit>
+      <trans-unit id="extensionList.uninstall.dependencyError" xml:space="preserve" approved="yes">
+        <source>Cannot deactivate extension '%s' - The extension(s) '%s' depend on it.</source>
+      <target state="translated">Erweiterung '%s' kann nicht deaktiviert weil, weil die Erweiterung(en) '%s' auf ihr basieren.</target></trans-unit>
+      <trans-unit id="distribution.error.headline" xml:space="preserve">
+        <source>Could not install distribution '%s'</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Konnte die Distribution '%s' nicht installieren</target></alt-trans></trans-unit>
+      <trans-unit id="distribution.welcome.headline" xml:space="preserve" approved="yes">
+        <source>Congratulations...</source>
+      <target state="translated">Herzlichen Glückwunsch...</target></trans-unit>
+      <trans-unit id="distribution.welcome.message" xml:space="preserve" approved="yes">
+        <source>You successfully installed the distribution:</source>
+      <target state="translated">Diese Distribution wurde erfolgreich installiert:</target></trans-unit>
+      <trans-unit id="distribution.welcome.nextSteps" xml:space="preserve" approved="yes">
+        <source>Now you can:</source>
+      <target state="translated">Sie können jetzt:</target><note>Muss einen Satz ergeben mit dem vorigen Text ("Sie können jetzt...").</note></trans-unit>
+      <trans-unit id="distribution.welcome.openViewModule" xml:space="preserve" approved="yes">
+        <source>View your website</source>
+      <target state="translated">Ihre Website anzeigen</target><note>Muss einen Satz ergeben mit dem vorigen Text ("Sie können jetzt...").</note></trans-unit>
+      <trans-unit id="distribution.welcome.openPageModule" xml:space="preserve" approved="yes">
+        <source>Start editing your website</source>
+      <target state="translated">Beginnen, Ihre Website zu bearbeiten</target><note>Muss einen Satz ergeben mit dem vorigen Text ("Sie können jetzt...").</note></trans-unit>
+      <trans-unit id="distribution.dependency.headline" xml:space="preserve" approved="yes">
+        <source>Dependencies, conflics and suggestions</source>
+      <target state="translated">Abhängigkeiten, Konflikte und Vorschläge</target></trans-unit>
+      <trans-unit id="distribution.dependency.identifier" xml:space="preserve" approved="yes">
+        <source>Identifier</source>
+      <target state="translated">Bezeichner</target></trans-unit>
+      <trans-unit id="distribution.dependency.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="distribution.dependency.version" xml:space="preserve" approved="yes">
+        <source>Version</source>
+      <target state="translated">Version</target><note>100%</note></trans-unit>
+      <trans-unit id="task.updateExtensionListTask.name" xml:space="preserve" approved="yes">
+        <source>Update extension list</source>
+      <target state="translated">Erweiterungsliste aktualisieren</target></trans-unit>
+      <trans-unit id="task.updateExtensionListTask.description" xml:space="preserve" approved="yes">
+        <source>Update TER extension list on a regular basis. Once a day is a good interval.</source>
+      <target state="translated">Aktualisieren der TER-Erweiterungsliste in regelmäßigem Interval. Einmal pro Tag ist ein gutes Interval.</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.title" xml:space="preserve" approved="yes">
+        <source>Update status of typo3.org main repository extension list</source>
+      <target state="translated">Aktualisierungsstatus der typo3.org Haupt-Repository Erweiterungsliste</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.notFound.value" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Fehler</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.notFound.message" xml:space="preserve" approved="yes">
+        <source>The typo3.org extension repository was not found. Please import the main typo3.org extension repository in the install tool wizard.</source>
+      <target state="translated">Das typo3.org Erweiterungsrepository wurde nicht gefunden. Bitte importieren sie das Haupt-typo3.org-Erweiterungsrepository über den Assistenten im Install Tool</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.notUpToDate.value" xml:space="preserve" approved="yes">
+        <source>Extension list is not up to date!</source>
+      <target state="translated">Erweiterungsliste ist nicht aktuell!</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.notUpToDate.message" xml:space="preserve" approved="yes">
+        <source>The Main Repository extension list is older than 7 days. Please update it in the Extension manager or Scheduler.</source>
+      <target state="translated">Die Erweiterungsliste des Haupt-Repository ist älter als 7 Tage. Bitte aktualisieren sie es über den Erweiterungsmanager oder den Planer</target></trans-unit>
+      <trans-unit id="report.status.mainRepository.upToDate.value" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="report.status.loadedExtensions.title" xml:space="preserve" approved="yes">
+        <source>Security status of loaded extensions</source>
+      <target state="translated">Sicherheitsstatus der geladenen Erweiterungen</target></trans-unit>
+      <trans-unit id="report.status.loadedExtensions.noInsecureExtensionLoaded.value" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.value" xml:space="preserve" approved="yes">
+        <source>%s insecure extension(s) found</source>
+      <target state="translated">%s unsichere Erweiterung(en) gefunden</target></trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message" xml:space="preserve" approved="yes">
+        <source>The following extensions are insecure and usage might damage your system. Please update these extensions as soon as possible or remove them from your system:&lt;br&gt;&lt;br&gt;%s</source>
+      <target state="translated">Die folgenden Erweiterungen sind unsicher und die Verwendung könnte Ihr System gefährden. Bitte aktualisieren Sie diese Erweiterungen so bald wie möglich oder entfernen Sie diese Ihrem System:&lt;br&gt;&lt;br&gt;%s</target></trans-unit>
+      <trans-unit id="report.status.loadedExtensions.insecureExtensionLoaded.message.extension" xml:space="preserve" approved="yes">
+        <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
+      <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (Version %2s)&lt;br&gt;</target></trans-unit>
+      <trans-unit id="report.status.existingExtensions.title" xml:space="preserve" approved="yes">
+        <source>Security status of existing, but not loaded extensions</source>
+      <target state="translated">Sicherheitsstatus von existierenden, aber nicht geladenen Erweiterungen</target></trans-unit>
+      <trans-unit id="report.status.existingExtensions.noInsecureExtensionExists.value" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.value" xml:space="preserve" approved="yes">
+        <source>%s insecure extension(s) found</source>
+      <target state="translated">%s unsichere Erweiterung(en) gefunden</target></trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message" xml:space="preserve" approved="yes">
+        <source>The following extensions were found on your system, but are currently not installed. Please delete the extensions using the extension manager:&lt;br&gt;&lt;br&gt;%s</source>
+      <target state="translated">Die folgenden Erweiterungen wurden auf Ihrem System gefunden, aber sind aktuell nicht installiert. Bitte löschen Sie die Erweiterungen über den Erweiterungsmanager:&lt;br&gt;&lt;br&gt;%s</target></trans-unit>
+      <trans-unit id="report.status.existingExtensions.insecureExtensionExists.message.extension" xml:space="preserve" approved="yes">
+        <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
+      <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (Version %2s)&lt;br&gt;</target></trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.title" xml:space="preserve" approved="yes">
+        <source>Outdated status of loaded extensions</source>
+      <target state="translated">Veraltete Erweiterungen, die geladen sind</target><note>Klingt komisch, ist aber so.</note></trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.noOutdatedExtensionLoaded.value" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target><note>100%</note></trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.value" xml:space="preserve" approved="yes">
+        <source>%s outdated extension(s) found</source>
+      <target state="translated">%s veraltete Erweiterung(en) gefunden</target></trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message" xml:space="preserve" approved="yes">
+        <source>The following extensions are outdated and may not be compatible with your installation. Please make sure these extensions are compatible and ask the extension author to publish updates:&lt;br&gt;&lt;br&gt;%s</source>
+      <target state="translated">Die folgenden Erweiterungen sind veraltet und mit Ihrer Installation möglicherweise nicht kompatibel. Bitte stellen Sie sicher, dass diese Erweiterungen kompatibel sind und bitten Sie den Autor um eine Aktualisierung:&lt;br&gt;&lt;br&gt;%s</target></trans-unit>
+      <trans-unit id="report.status.loadedOutdatedExtensions.outdatedExtensionLoaded.message.extension" xml:space="preserve" approved="yes">
+        <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
+      <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (Version %2s)&lt;br&gt;</target><note>100%</note></trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.title" xml:space="preserve" approved="yes">
+        <source>Outdated status of existing, but not loaded extensions</source>
+      <target state="translated">Veraltete Erweiterungen, die nicht geladen sind</target><note>Klingt komisch, ist aber so. (Christopher)</note></trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.noOutdatedExtensionExists.value" xml:space="preserve" approved="yes">
+        <source>OK</source>
+      <target state="translated">OK</target></trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.value" xml:space="preserve" approved="yes">
+        <source>%s outdated extension(s) found</source>
+      <target state="translated">%s veraltete Erweiterung(en) gefunden</target></trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message" xml:space="preserve" approved="yes">
+        <source>The following extensions were found on your system, but are currently not installed. Please make sure they are compatible with your system before installing them:&lt;br&gt;&lt;br&gt;%s</source>
+      <target state="translated">Die folgenden Erweiterungen wurden auf Ihrem System gefunden, sind aber momentan nicht installiert. Bitte stellen Sie sicher, dass sie mit Ihrem System kompatibel sind bevor Sie sie installieren:&lt;br&gt;&lt;br&gt;%s</target></trans-unit>
+      <trans-unit id="report.status.existingOutdatedExtensions.outdatedExtensionExists.message.extension" xml:space="preserve" approved="yes">
+        <source>&lt;strong&gt;%1s&lt;/strong&gt; (version %2s)&lt;br&gt;</source>
+      <target state="translated">&lt;strong&gt;%1s&lt;/strong&gt; (Version %2s)&lt;br&gt;</target></trans-unit>
+      <trans-unit id="fileHandling.couldNotRemoveDirectory" xml:space="preserve">
+        <source>ERROR: Could not remove extension directory "%s". Reasons:</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>FEHLER: Konnte das Erweiterungs-Verzeichnis "%s" nicht entfernen. Gründe: </target></alt-trans></trans-unit>
+      <trans-unit id="fileHandling.couldNotCreateDirectory" xml:space="preserve">
+        <source>ERROR: Could not create extension directory "%s"!</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>FEHLER: Konnte das Erweiterungs-Verzeichnis "%s" nicht anlegen!</target></alt-trans></trans-unit>
+      <trans-unit id="fileHandling.installPathWasNoDirectory" xml:space="preserve">
+        <source>ERROR: The extension install path "%s" was no directory!</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>FEHLER: Der Erweiterungs-Pfad "%s" ist kein Verzeichnis!</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

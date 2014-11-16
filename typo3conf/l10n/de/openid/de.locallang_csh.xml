@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_openid_openid.description">OpenID-Identifikation</label>
+      <label index="tx_openid_openid.details">Ist die Option aktiviert, können sich Benutzer mit ihrer OpenID-Identifikation am System anmelden.</label>
+      <label index="tx_openid_openid.seeAlso">http://openid.net/</label>
+      <label index="tx_openid_change_allowed.description">Ist die Option aktiviert, können Benutzer ihre eigene OpenID-Identifikation über das Modul Einstellungen ändern.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

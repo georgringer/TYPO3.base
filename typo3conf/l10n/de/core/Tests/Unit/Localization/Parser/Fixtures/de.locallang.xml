@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="label1">Dies ist Beschriftung #1</label>
+      <label index="label2">Dies ist Beschriftung #2</label>
+      <label index="label3">Dies ist Beschriftung #3</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

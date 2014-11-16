@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="documentation_manager">Dokumentations-Manager</label>
+      <label index="documentation.title">Titel</label>
+      <label index="documentation.type">Typ</label>
+      <label index="documentation.shortcut">Erweiterungsschlüssel</label>
+      <label index="documentation.actions">Aktionen</label>
+      <label index="documentation.actions.download">Dokument herunterladen</label>
+      <label index="tx_documentation_domain_model_document">Dokument</label>
+      <label index="tx_documentation_domain_model_document.package_key">Paketschlüssel</label>
+      <label index="tx_documentation_domain_model_document.extension_key">Erweiterungsschlüssel</label>
+      <label index="tx_documentation_domain_model_document.title">Titel</label>
+      <label index="tx_documentation_domain_model_document.version">Version</label>
+      <label index="tx_documentation_domain_model_document.translations">Übersetzungen</label>
+      <label index="tx_documentation_domain_model_documenttranslation">Dokument-Übersetzungen</label>
+      <label index="tx_documentation_domain_model_documenttranslation.language">Sprache</label>
+      <label index="tx_documentation_domain_model_documenttranslation.title">Titel</label>
+      <label index="tx_documentation_domain_model_documenttranslation.description">Beschreibung</label>
+      <label index="tx_documentation_domain_model_documenttranslation.actions">Aktionen</label>
+      <label index="tx_documentation_domain_model_documentformat">Dokumentformat</label>
+      <label index="tx_documentation_domain_model_documentformat.format">Format</label>
+      <label index="tx_documentation_domain_model_documentformat.path">Pfad</label>
+      <label index="tx_documentation_domain_model_documentformat.format.title">Dokumentation anzeigen als %s</label>
+      <label index="showDocumentation">Dokumentation anzeigen</label>
+      <label index="downloadDocumentation">Dokumentation herunterladen</label>
+      <label index="searchTemplate.submitButton">Los</label>
+      <label index="downloadSucceeded">Die gerenderte Dokumentation wurde erfolgreich heruntergeladen.</label>
+      <label index="downloadFailed">Herunterladen fehlgeschlagen</label>
+      <label index="downloadFailedNoArchive">Kein Archiv mit gerenderter Dokumentation auf docs.typo3.org gefunden.</label>
+      <label index="downloadFailedDetails">Die Dokumentation für "%s" konnte nicht heruntergeladen werden. Folgender Fehler ist aufgetreten: %s (%d).</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

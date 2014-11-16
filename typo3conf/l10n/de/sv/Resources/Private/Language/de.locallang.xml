@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="report_title"/>
+      <label index="report_description"/>
+      <label index="report_explanation"/>
+      <label index="externals_explanation"/>
+      <label index="service_type"/>
+      <label index="service"/>
+      <label index="priority"/>
+      <label index="quality"/>
+      <label index="subtypes"/>
+      <label index="os"/>
+      <label index="externals"/>
+      <label index="available"/>
+      <label index="any"/>
+      <label index="search_paths"/>
+      <label index="path"/>
+      <label index="valid"/>
+      <label index="no_search_paths"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

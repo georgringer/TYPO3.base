@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="ShowMicrodata-Tooltip">Microdata zeigen</label>
+      <label index="microdata">Microdata</label>
+      <label index="itemscope">Elementbereich</label>
+      <label index="itemtype">Elementtyp</label>
+      <label index="currentItemType">Aktueller Elementtyp</label>
+      <label index="itemprop">Elementeigenschaft</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

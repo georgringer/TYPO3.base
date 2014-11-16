@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="constants"/>
+      <label index="setup"/>
+      <label index="all"/>
+      <label index="plainSubstitution"/>
+      <label index="substitutedGreen"/>
+      <label index="unsubstitutedGreen"/>
+      <label index="currentTemplate"/>
+      <label index="badProperty"/>
+      <label index="noSpaces"/>
+      <label index="nothingUpdated"/>
+      <label index="propertyAdded"/>
+      <label index="valueUpdated"/>
+      <label index="objectCleared"/>
+      <label index="updateButton"/>
+      <label index="editProperty"/>
+      <label index="addButton"/>
+      <label index="addProperty"/>
+      <label index="clear"/>
+      <label index="clearButton"/>
+      <label index="clearObject"/>
+      <label index="edit"/>
+      <label index="noCurrentTemplate"/>
+      <label index="addKey"/>
+      <label index="removeKey"/>
+      <label index="back"/>
+      <label index="browse"/>
+      <label index="objectList"/>
+      <label index="search"/>
+      <label index="regExp"/>
+      <label index="errorsWarnings"/>
+      <label index="errorShowDetails"/>
+      <label index="removeKey"/>
+      <label index="setupRoot"/>
+      <label index="constantRoot"/>
+      <label index="displayComments"/>
+      <label index="sortAlphabetically"/>
+      <label index="cropLines"/>
+      <label index="displayConstants"/>
+      <label index="displayOptions"/>
+      <label index="conditions"/>
+      <label index="setConditions"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

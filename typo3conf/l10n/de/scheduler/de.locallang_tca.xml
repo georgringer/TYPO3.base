@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_scheduler_task_group">Planertaskgruppe</label>
+      <label index="tx_scheduler_task_group.groupName">Gruppenname</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

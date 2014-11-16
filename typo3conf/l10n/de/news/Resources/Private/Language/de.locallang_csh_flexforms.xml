@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="switchableControllerActions.description">Wähle die Ansicht die dargestellt werden soll</label>
+      <label index="switchableControllerActions.details"/>
+      <label index="settings.orderBy.description">Wählen Sie das Feld aus, das für die Sortierung der Artikel verwendet werden soll.</label>
+      <label index="settings.orderDirection.description">Wählen Sie die Sortierrichtung.</label>
+      <label index="settings.dateField.description">Wählen Sie das Feld aus, das für das Datumsmenü verwendet werden soll.</label>
+      <label index="settings.categories.description">Wählen Sie die Kategorie(n) aus, deren Artikel angezeigt werden sollen.</label>
+      <label index="settings.categoryConjunction.description">Definieren Sie wie die ausgewählten Kategorien verwendet werden sollen.</label>
+      <label index="settings.includeSubCategories.description">Falls aktiviert, werden alle Unterkategorien der ausgewählten Kategorien ebenfalls berücksichtigt.</label>
+      <label index="settings.categoryConjunction.details"/>
+      <label index="settings.archiveRestriction.description">Wählen Sie zwischen: 1) Anzeige aller Artikel, unabhängig des Archivdatums, 2) Anzeige der aktiven Artikel (alle die deren Archivdatum nach dem aktuellen Datum definiert ist), 3) Anzeige aller archivierten Artikel. Das Archivdatum wird bei jedem Artikel gepflegt. Ist im Artikel kein Archivdatum angegeben, kann dieser nicht archiviert werden.</label>
+      <label index="settings.timeRestriction.description">Angabe einer Zeitrestriktion. ist die Angabe eine Zahl, wird sie als Sekunden interpretiert. Die Angabe von "86400" entspricht einem Tag (60 * 60 * 24). Alternativ ist die Angabe von "-4 Tagen", "-3 Stunden" möglich. Es ist wichtig, das Minus ("-") anzugeben. Es werden nur die Artikel angezeigt, deren Datum über der angegeben Zeitrestriktion liegt.</label>
+      <label index="settings.timeRestrictionHigh.description">Angabe einer Zeitrestriktion. ist die Angabe eine Zahl, wird sie als Sekunden interpretiert. Die Angabe von "86400" entspricht einem Tag (60 * 60 * 24). Alternativ ist die Angabe von "4 Tagen", "3 Stunden" möglich.  Es werden nur die Artikel angezeigt, deren Datum unter der angegeben Zeitrestriktion liegt.</label>
+      <label index="settings.topNewsRestriction.description"> Mit dieser Einstellung kann definiert werden, ob die Angabe "Top News" von einem Artikel berücksichtigt wird oder nicht.</label>
+      <label index="settings.singleNews.description">Anzeige es einzelnen Artikels,</label>
+      <label index="settings.previewHiddenRecords.description">Sofern gesetzt, werden auch die Artikel angezeigt, die als versteckt gespeichert sind. </label>
+      <label index="settings.startingpoint.description">Geben Sie die Seiten an, auf denen die Artikel gespeichert sind die Sie anzeigen wollen.</label>
+      <label index="settings.recursive.description">Angabe der Rekursion von den definierten Seiten</label>
+      <label index="settings.detailPid.description">Definieren Sie die Seite, die für die Detailansicht verwendet wird.</label>
+      <label index="settings.backPid.description">Definierten Sie die Seite, auf die der User von der Detailseite zurückkehren soll.</label>
+      <label index="settings.listPid.description">Definieren Sie die Seite, auf der sich die Listenansicht befindet.</label>
+      <label index="settings.limit.description">Definieren Sie die maximale Menge an Artikeln, die angezeigt werden sollen.</label>
+      <label index="settings.offset.description">Definieren Sie den Offset der verwendet werden soll. Die Angabe von "2" heißt, dass die ersten Artikel nicht angezeigt werden (es wird bei 0 begonne zu zählen, nicht bei 1!)</label>
+      <label index="settings.topNewsFirst.description">Falls gesetzt, werden die als "Top News" definierten Artikel vorgereiht. Dies passiert unabhängig von der eingestellten Sortierung.</label>
+      <label index="settings.disableOverrideDemand.description"/>
+      <label index="settings.tags.description"/>
+      <label index="settings.media.maxWidth.description">Maximale Breite von Medienelementen</label>
+      <label index="settings.media.maxHeight.description">Maximale Höhe von Medienelementen</label>
+      <label index="settings.cropMaxCharacters.description">Definierten Sie die maximale Länge des Anreissertextes für die Listenansicht. </label>
+      <label index="settings.templateLayout.description">Sofern definiert, kann ein bestimmtes Layout gewählt werden mit dem Darstellung der Artikel verändert wird.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

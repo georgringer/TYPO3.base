@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sys_note" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="author" xml:space="preserve" approved="yes">
+        <source>Author:</source>
+      <target state="translated">Autor:</target></trans-unit>
+      <trans-unit id="date" xml:space="preserve" approved="yes">
+        <source>Date:</source>
+      <target state="translated">Datum:</target></trans-unit>
+      <trans-unit id="personal" xml:space="preserve" approved="yes">
+        <source>Personal:</source>
+      <target state="translated">Persönlich:</target></trans-unit>
+      <trans-unit id="category.1" xml:space="preserve" approved="yes">
+        <source>Instructions</source>
+      <target state="translated">Anleitungen</target></trans-unit>
+      <trans-unit id="category.2" xml:space="preserve" approved="yes">
+        <source>Template</source>
+      <target state="translated">Vorlage</target></trans-unit>
+      <trans-unit id="category.3" xml:space="preserve" approved="yes">
+        <source>Notes</source>
+      <target state="translated">Notizen</target></trans-unit>
+      <trans-unit id="category.4" xml:space="preserve" approved="yes">
+        <source>To-do</source>
+      <target state="translated">To-Do</target></trans-unit>
+      <trans-unit id="yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target></trans-unit>
+    </body>
+  </file>
+</xliff>

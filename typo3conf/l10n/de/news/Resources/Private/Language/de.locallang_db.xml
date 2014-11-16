@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="tx_news_domain_model_news.tabs.relations">Relationen</label>
+      <label index="tx_news_domain_model_news.palettes.alternativeTitles">Alternativer Titel</label>
+      <label index="tx_news_domain_model_news">Artikel</label>
+      <label index="tx_news_domain_model_news.alternative_title">Alternativer Titel</label>
+      <label index="tx_news_domain_model_news.teaser">Teaser</label>
+      <label index="tx_news_domain_model_news.datetime">Datum &amp; Zeit</label>
+      <label index="tx_news_domain_model_news.archive">Archiv</label>
+      <label index="tx_news_domain_model_news.archive.placeholder">Zeit ab der Artikel im Archiv aufscheint</label>
+      <label index="tx_news_domain_model_news.categories">Kategorien</label>
+      <label index="tx_news_domain_model_news.related">Ähnliche Nachrichten</label>
+      <label index="tx_news_domain_model_news.related_from">Verwandte Artikel (von)</label>
+      <label index="tx_news_domain_model_news.related_files">Ähnliche Dateien</label>
+      <label index="tx_news_domain_model_news.fal_related_files">Ähnliche Dateien</label>
+      <label index="tx_news_domain_model_news.fal_related_files.add"/>
+      <label index="tx_news_domain_model_news.related_links">Ähnliche Links</label>
+      <label index="tx_news_domain_model_news.type.I.0">Nachrichten</label>
+      <label index="tx_news_domain_model_news.type.I.1">Interne Seite</label>
+      <label index="tx_news_domain_model_news.type.I.2">Externe Seite</label>
+      <label index="tx_news_domain_model_news.media">Medienelement</label>
+      <label index="tx_news_domain_model_news.fal_media"/>
+      <label index="tx_news_domain_model_news.fal_media.add"/>
+      <label index="tx_news_domain_model_news.istopnews">Top-Nachrichten</label>
+      <label index="tx_news_domain_model_news.content_elements">Inhaltselemente</label>
+      <label index="tx_news_domain_model_news.tags">Tags</label>
+      <label index="tx_news_domain_model_news.tags.add">Einen Tag hinzufügen</label>
+      <label index="tx_news_domain_model_news.tags.list">Alle Tags auflisten</label>
+      <label index="tx_news_domain_model_news.tags.edit">Tag bearbeiten</label>
+      <label index="tx_news_domain_model_news.keywords.placeholder">Schlüsselwort1, Schlüsselwort2, Schlüsselwort3</label>
+      <label index="tx_news_domain_model_category.image">Bild</label>
+      <label index="tx_news_domain_model_category.single_pid">Einzelansicht für Nachrichten aus dieser Kategorie</label>
+      <label index="tx_news_domain_model_category.shortcut">Nachrichtenkategorie Verweis</label>
+      <label index="tx_news_domain_model_media">Nachrichten-Medienelement</label>
+      <label index="tx_news_domain_model_media.caption">Bildunterschrift</label>
+      <label index="tx_news_domain_model_media.media">Bild</label>
+      <label index="tx_news_domain_model_media.type.I.0">Bild</label>
+      <label index="tx_news_domain_model_media.type.I.1">Video &amp; Audio</label>
+      <label index="tx_news_domain_model_media.type.I.2">HTML</label>
+      <label index="tx_news_domain_model_media.multimedia">Video-/Audio-URL</label>
+      <label index="tx_news_domain_model_media.show">Zeige</label>
+      <label index="tx_news_domain_model_media.showinpreview">In Vorschau-Ansichten anzeigen</label>
+      <label index="tx_news_domain_model_media.copyright">Urheberrecht</label>
+      <label index="tx_news_domain_model_file">Nachrichten-Dateielement</label>
+      <label index="tx_news_domain_model_file.title">Titel</label>
+      <label index="tx_news_domain_model_file.description">Beschreibung</label>
+      <label index="tx_news_domain_model_file.file">Datei</label>
+      <label index="tx_news_domain_model_link">Nachrichten-Linkelement</label>
+      <label index="tx_news_domain_model_link.title">Titel</label>
+      <label index="tx_news_domain_model_link.description">Beschreibung</label>
+      <label index="tx_news_domain_model_link.uri">URL</label>
+      <label index="tx_news_domain_model_link.uri.placeholder">www.domain.org</label>
+      <label index="tx_news_domain_model_tag">Nachrichten-Tag</label>
+      <label index="tx_news_domain_model_tag.title">Titel</label>
+      <label index="tx_news_domain_model_news.path_segment">Sprechende URL Pfadabschnitt</label>
+      <label index="be_user.tx_news_categorymounts">News: Kategoriebeschränkungen</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

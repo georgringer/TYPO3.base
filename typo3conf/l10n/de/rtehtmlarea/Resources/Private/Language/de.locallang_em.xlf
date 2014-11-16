@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="rtehtmlarea" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="rtehtmlarea.config.noSpellCheckLanguages" xml:space="preserve" approved="yes">
+        <source>No spell checking languages: The list of languages for which Aspell does not provide spell checking (see http://aspell.net/man-html/Unsupported.html#Unsupported) and for which the htmlArea SpellChecker plugin will therefore be disabled.</source>
+      <target state="translated">Sprachen ohne Aspell: Liste der Sprachen, für die Aspell keine Rechtschreibkorrektur bietet (siehe http://aspell.net/man-html/Unsupported.html#Unsupported) und für die das htmlArea-Rechtschreibkorrektur-Plug-In daher deaktiviert wird.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.AspellDirectory" xml:space="preserve" approved="yes">
+        <source>Aspell path: The server path where Aspell is installed.</source>
+      <target state="translated">Aspell-Pfad: Der Serverpfad, in dem Aspell installiert ist.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.defaultConfiguration" xml:space="preserve" approved="yes">
+        <source>Default configuration settings</source>
+      <target state="translated">Standardkonfigurationseinstellungen</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.enableImages" xml:space="preserve" approved="yes">
+        <source>Enable images in the RTE: If set, the use of images will be enabled in the "Minimal" or the "Typical" default configuration of the RTE.</source>
+      <target state="translated">Bilder im RTE aktivieren: Wenn gesetzt, werden Bilder im RTE in den Standardkonfigurationen "Minmal" und "Typisch" aktiviert.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.enableInlineElements" xml:space="preserve" approved="yes">
+        <source>Enable additional inline elements: If set, the potential use of additional inline elements will be enabled.</source>
+      <target state="translated">Zusätzliche Inline-Elemente aktivieren: Wenn gesetzt, werden zusätzliche Inline-Elemente für potentielle Benutzung aktiviert.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.allowStyleAttribute" xml:space="preserve" approved="yes">
+        <source>Enable features that use the style attribute: If set, the potential use of features that use the style attribute (textcolor, bgcolor, fontstyle, fontsize) will be enabled.</source>
+      <target state="translated">Funktionen aktivieren, die Style-Attribute verwenden: Wenn gesetzt, werden Funktionen, die Style-Attribute verwenden (textcolor, bgcolor, fontstyle, fontsize), für potentielle Benutzung aktiviert.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.enableAccessibilityIcons" xml:space="preserve" approved="yes">
+        <source>Enable links accessibility icons: If set, accessibility icons will be added in front of links.</source>
+      <target state="translated">Barrierefreiheits-Symbole für Links aktivieren: Wenn gesetzt, werden vor Links Barrierefreiheits-Symbole angezeigt.</target></trans-unit>
+      <trans-unit id="rtehtmlarea.config.forceCommandMode" xml:space="preserve" approved="yes">
+        <source>Force Aspell command mode: If set, the spellchecker will use the Aspell command interface. Presumably. PHP is compiled with pspell, but with an old version of Aspell.</source>
+      <target state="translated">Befehlsoberfläche von Aspell erzwingen: Wenn gesetzt, wird die Rechtschreibkorrektur die Befehlsoberfläche von Aspell nutzen. Voraussichtlich. PHP muss mit pspell kompiliert sein, aber mit einer alten Version von Aspell.</target><note>Was das heißen soll, weiß wohl niemand. Christopher</note></trans-unit>
+    </body>
+  </file>
+</xliff>

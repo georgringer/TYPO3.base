@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Dateispeicher, der als Eingangspunkt zu einer dateibasierten Struktur dient. Sehen Sie ihn als eine Art Laufwerk oder Festplatte in Ihrem PC.</label>
+      <label index=".details"/>
+      <label index="hidden.description">Wenn Sie den Speicher deaktivieren, wird er aus allen Listen im Backend entfernt. Bestehende Dateirelationen bleiben bestehen.</label>
+      <label index="hidden.details">Wenn Sie einen Dateispeicher einrichten, wird er in jeder Dateiliste erscheinen, so dass es möglich sein wird, die Dateien in diesem Datei-Repository zu browsen. Wenn Sie diese Checkbox setzen, wird dieser Speicher von jeglichen Listen im Backend ausgenommen. Bereits bestehende Dateirelationen bleiben bestehen.</label>
+      <label index="name.description">Der sichtbare Bezeichner für diesen Dateispeicher.</label>
+      <label index="name.details">Die hier angegebene Beschriftung wird als Name für den Eingangspunkt im TYPO3-Backend gezeigt. Stellen Sie sicher, dass sie deskriptiv und logisch für Ihre Redakteure ist.</label>
+      <label index="description.description">Eine Beschreibung dieses Speichers.</label>
+      <label index="description.details">Dieses Beschreibungsfeld kann benutzt werden, um z.B. den Ort des Speichers, wozu er da ist, oder was er enthält zu erklären.</label>
+      <label index="driver.description">Wählen Sie den Treiber für das technische Rückgrat des Speichers. Nachdem Sie einen Treiber ausgewählt und Ihre Auswahl gespeichert haben, werden zusätzliche Konfigurationsoptionen angezeigt werden.</label>
+      <label index="driver.details">Der Treiber ist der technische Hintergrund eines Speichers und bestimmt so auch, ob der Ort des Speichers lokal (= auf demselben Server wie diese TYPO3-Installation) oder entfernt ist wie eine WebDAV-Serververbindung. Suchen Sie im TYPO3-Erweiterungs-Repository nach Erweiterungen, die die Liste der Treiber erweitern.</label>
+      <label index="processingfolder.description">Legt das Verzeichnis im Speicher fest, das benutzt werden soll, um temporäre Dateien wie etwa skalierte Bilder zu speichern.</label>
+      <label index="is_browsable.description">Falls gesetzt, können Backend-Benutzer diesen Speicher durchsuchen. Ansonsten wird er als nicht-auswählbares Element in der Liste erscheinen.</label>
+      <label index="is_public.description">Wenn gesetzt, können Dateien in diesem Speicher direkt von außen verlinkt werden. Wenn diese Option nicht gesetzt ist, stellen Sie sicher, dass Sie zusätzliche Möglichkeiten bieten, auf die Dateien in diesem Speicher zuzugreifen.</label>
+      <label index="is_writable.description">Wenn gesetzt, dürfen Benutzer Dateien und Ordner in diesem Speicher ändern, hinzufügen und löschen.</label>
+      <label index="is_online.description">Diese Flag ist gewöhnlich gesetzt. Wenn TYPO3 keine Verbindung mit dem Speicher herstellen kann (etwa weil er temporär nicht verfügbar ist), dann wird diese Flag entfernt und der Speicher wird sich im TYPO3-Backend so verhalten, als sei er nicht browsbar. Ein Administrator muss ihn manuell wieder aktivieren, wenn er offline war.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

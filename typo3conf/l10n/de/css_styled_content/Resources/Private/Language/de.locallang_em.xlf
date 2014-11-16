@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="css_styled_content" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="cssstyledcontent.config.setPageTSconfig" xml:space="preserve" approved="yes">
+        <source>Set PageTSconfig by default: If you are going to use this extension by default in this database then set this flag. In that case you don't need to set specific PageTSconfig for each page, which you have to do otherwise!</source>
+      <target state="translated">Seiten-TSconfig standardmäßig setzen: Wenn Sie diese Erweiterung in dieser Datenbank standmäßig nutzen, dann aktivieren Sie diese Option. Sie brauchen dann kein css_styled_content-spezifisches Seiten-TSconfig für jede Seite setzen; was Sie andernfalls sehr wohl müssten!</target></trans-unit>
+      <trans-unit id="cssstyledcontent.config.removePositionTypes" xml:space="preserve" approved="yes">
+        <source>Remove unused positioning types: This will disable the image positions that make no sense on CType=image (it leaves just "above left", "center" and "right").</source>
+      <target state="translated">Unbenutzte Positionierungstypen entfernen: Diese Option wird diejenigen Bildausrichtungen deaktivieren, die keinen Sinn ergeben (es bleiben nur "über links", "mittig" und "rechts").</target></trans-unit>
+    </body>
+  </file>
+</xliff>

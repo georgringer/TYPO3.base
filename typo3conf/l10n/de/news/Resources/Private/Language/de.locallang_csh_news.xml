@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Artikel-Datensatz</label>
+      <label index=".details">Vielseitiges Newssystem</label>
+      <label index="sys_language_uid.description">Sprache des Artikels</label>
+      <label index="starttime.description">Datum ab dem der Artikel angezeigt werden soll.</label>
+      <label index="endtime.description">Datum bis zu dem der Artikel angezeigt werden soll.</label>
+      <label index="fe_group.description">Angabe der Benutzergruppen, die diesen Artikel sehen dürfen.</label>
+      <label index="editlock.description">Falls aktiviert, kann dieser Artikel nur von einem Administrator bearbeitet werden.</label>
+      <label index="hidden.description">Versteckte Artikel werden auf der Website nicht dargestellt.</label>
+      <label index="title.description">Titel des Artikels</label>
+      <label index="alternative_title.description">Alternativer Titel des Artikels</label>
+      <label index="teaser.description">Achtung: Es ist möglich dass nicht der vollständige Text ausgegeben wird (abhängig von der Implementierung).</label>
+      <label index="type.description">Wähle den Typ des Artikels aus. Das kann ein normaler Artikel sein oder ein Link zu einer internen Seite oder einer externen Url.</label>
+      <label index="istopnews.description"/>
+      <label index="author.description">Autor des Artikels</label>
+      <label index="author_email.description">Emailadresse des Autors</label>
+      <label index="datetime.description">Datum eines Artikels</label>
+      <label index="archive.description">Archiv Datum eines Artikels. Nur wenn dieses Feld ausgefüllt wird, erscheint dieser Artikel in einem möglichen Archivmenü.</label>
+      <label index="bodytext.description">Hauptinhalt des Artikels</label>
+      <label index="categories.description">Auswahl der Kategorien, zu denen der Artikel gehört.</label>
+      <label index="tags.description">Auswahl der passenden Tags die den Artikel beschreiben.</label>
+      <label index="content_elements.description">Inhaltselemente können dazu verwendet werden, um zusätzliche Inhalte hinzuzufügen.</label>
+      <label index="keywords.description">Keywords des Artikels, die besonders für Suchmaschinenoptimierung relevant sind.</label>
+      <label index="description.description">Zusätzliche Beschreibung die für Suchmaschinenoptimierung verwendet werden kann.</label>
+      <label index="related.description">Verwandte Artikel</label>
+      <label index="related_from.description">Anzeige der Artikel die den aktuellen Artikel als verwandt gespeichert haben.</label>
+      <label index="related_files.description">Verwandte Dateien, zum Beispiel PDFs</label>
+      <label index="related_links.description">Verwandte Links zu internen und externen Seiten.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,13 @@
+/fileadmin
+/uploads
+/typo3temp
+/typo3conf/ENABLE_INSTALL_TOOL
+/typo3conf/ext/formhandler
+/typo3conf/ext/news
+/typo3conf/ext/realurl
+/index.php
+/todo.md
+/typo3
+/typo3_src
+/.idea
+/vendor

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="sv" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="report_title" xml:space="preserve">
+        <source>Installed Services</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Installierte Dienste</target></alt-trans></trans-unit>
+      <trans-unit id="report_description" xml:space="preserve">
+        <source>List of all installed services with information and status for each of them.</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Liste aller installierten Dienste mit Informationen und Status für jeden.</target></alt-trans></trans-unit>
+      <trans-unit id="report_explanation" xml:space="preserve">
+        <source>This report displays a list of installed services, with detailed information about each of them. The services are ordered by type, priority and quality. Unavailable services are highlighted with an error status.</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Dieser Report zeigt eine Liste installierter Dienste mit detailierten Informationen über jeden. Die Dienste sind sortiert nach Typ, Priorität und Qualität. Nicht verfügbare DIenste sind mit einem Fehler Status hervorgehoben. </target></alt-trans></trans-unit>
+      <trans-unit id="externals_explanation" xml:space="preserve">
+        <source>The "Externals" column shows which external programs a given service relies on. If such program is missing or not executable, the service will be unavailable. Search paths for executables are listed at the bottom of this report.</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Die Spalte "Externe" zeigt welche externen Programme ein Dienst benötigt. Wenn solch ein Programm fehlt oder nicht ausführbar ist, dann ist der Dienst nicht verfügbar. Suchpfade für ausführbare Programme sind unten im Report gelistet.</target></alt-trans></trans-unit>
+      <trans-unit id="service_type" xml:space="preserve">
+        <source>Service type: %s</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Dienst Typ: %s</target></alt-trans></trans-unit>
+      <trans-unit id="service" xml:space="preserve">
+        <source>Service</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Dienst</target></alt-trans></trans-unit>
+      <trans-unit id="priority" xml:space="preserve">
+        <source>Priority</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Priorität</target></alt-trans></trans-unit>
+      <trans-unit id="quality" xml:space="preserve">
+        <source>Quality</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Qualität</target></alt-trans></trans-unit>
+      <trans-unit id="subtypes" xml:space="preserve">
+        <source>Subtypes</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Untertyp</target></alt-trans></trans-unit>
+      <trans-unit id="os" xml:space="preserve">
+        <source>OS</source>
+      <target/></trans-unit>
+      <trans-unit id="externals" xml:space="preserve">
+        <source>Externals</source>
+      <target/></trans-unit>
+      <trans-unit id="available" xml:space="preserve">
+        <source>Available</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Verfügbar</target></alt-trans></trans-unit>
+      <trans-unit id="any" xml:space="preserve">
+        <source>Any</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Irgendein</target></alt-trans></trans-unit>
+      <trans-unit id="search_paths" xml:space="preserve">
+        <source>Configured search paths for external programs</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Konfigurierte Suchpfade für externe Programme</target></alt-trans></trans-unit>
+      <trans-unit id="path" xml:space="preserve">
+        <source>Path</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Pfad</target></alt-trans></trans-unit>
+      <trans-unit id="valid" xml:space="preserve">
+        <source>Valid</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Gültig</target></alt-trans></trans-unit>
+      <trans-unit id="no_search_paths" xml:space="preserve">
+        <source>No search paths configured.</source>
+      <target/><alt-trans xml:space="preserve" origin="bodo"><target>Keine Suchpfade konfiguriert</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>

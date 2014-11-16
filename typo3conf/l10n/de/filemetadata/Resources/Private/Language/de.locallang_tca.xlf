@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2012-10-17T17:55:17Z" product-name="local lang" target-language="de">
+    <header/>
+    <body>
+      <!-- sys_file_metadata fields -->
+      <trans-unit id="sys_file_metadata.visible" xml:space="preserve" approved="yes">
+        <source>Visible</source>
+      <target state="translated">Sichtbar</target></trans-unit>
+      <trans-unit id="sys_file_metadata.status" xml:space="preserve" approved="yes">
+        <source>Status</source>
+      <target state="translated">Status</target></trans-unit>
+      <trans-unit id="sys_file_metadata.status.1" xml:space="preserve" approved="yes">
+        <source>Ok</source>
+      <target state="translated">Ok</target></trans-unit>
+      <trans-unit id="sys_file_metadata.status.2" xml:space="preserve" approved="yes">
+        <source>Pending</source>
+      <target state="translated">Ausstehend</target></trans-unit>
+      <trans-unit id="sys_file_metadata.status.3" xml:space="preserve" approved="yes">
+        <source>Under review</source>
+      <target state="translated">Überprüfung ausstehend</target></trans-unit>
+      <trans-unit id="sys_file_metadata.keywords" xml:space="preserve" approved="yes">
+        <source>Keywords</source>
+      <target state="translated">Schlüsselworte</target></trans-unit>
+      <trans-unit id="sys_file_metadata.caption" xml:space="preserve" approved="yes">
+        <source>Caption</source>
+      <target state="translated">Bildunterschrift</target></trans-unit>
+      <trans-unit id="sys_file_metadata.creator_tool" xml:space="preserve" approved="yes">
+        <source>Creator Tool</source>
+      <target state="translated">Erstellt mit</target></trans-unit>
+      <trans-unit id="sys_file_metadata.download_name" xml:space="preserve" approved="yes">
+        <source>Download Name</source>
+      <target state="translated">Download - Bezeichnung</target></trans-unit>
+      <trans-unit id="sys_file_metadata.creator" xml:space="preserve" approved="yes">
+        <source>Creator</source>
+      <target state="translated">Ersteller</target></trans-unit>
+      <trans-unit id="sys_file_metadata.publisher" xml:space="preserve" approved="yes">
+        <source>Publisher</source>
+      <target state="translated">Herausgeber</target></trans-unit>
+      <trans-unit id="sys_file_metadata.source" xml:space="preserve" approved="yes">
+        <source>Source</source>
+      <target state="translated">Quelle</target></trans-unit>
+      <trans-unit id="sys_file_metadata.location_country" xml:space="preserve" approved="yes">
+        <source>Country</source>
+      <target state="translated">Land</target></trans-unit>
+      <trans-unit id="sys_file_metadata.location_region" xml:space="preserve" approved="yes">
+        <source>Region</source>
+      <target state="translated">Region</target></trans-unit>
+      <trans-unit id="sys_file_metadata.location_city" xml:space="preserve" approved="yes">
+        <source>City</source>
+      <target state="translated">Stadt</target></trans-unit>
+      <trans-unit id="sys_file_metadata.latitude" xml:space="preserve" approved="yes">
+        <source>Latitude</source>
+      <target state="translated">Breitengrad</target></trans-unit>
+      <trans-unit id="sys_file_metadata.longitude" xml:space="preserve" approved="yes">
+        <source>Longitude</source>
+      <target state="translated">Längengrad</target></trans-unit>
+      <trans-unit id="sys_file_metadata.ranking" xml:space="preserve" approved="yes">
+        <source>Ranking</source>
+      <target state="translated">Wertung</target></trans-unit>
+      <trans-unit id="sys_file_metadata.content_creation_date" xml:space="preserve" approved="yes">
+        <source>Content Creation Date</source>
+      <target state="translated">Erstellungsdatum des Inhalts</target></trans-unit>
+      <trans-unit id="sys_file_metadata.content_modification_date" xml:space="preserve" approved="yes">
+        <source>Content Modification Date</source>
+      <target state="translated">Letzte Änderung</target></trans-unit>
+      <trans-unit id="sys_file_metadata.note" xml:space="preserve" approved="yes">
+        <source>Note</source>
+      <target state="translated">Notiz</target></trans-unit>
+      <trans-unit id="sys_file_metadata.unit" xml:space="preserve" approved="yes">
+        <source>Unit</source>
+      <target state="translated">Einheit</target></trans-unit>
+      <trans-unit id="sys_file_metadata.duration" xml:space="preserve" approved="yes">
+        <source>Duration</source>
+      <target state="translated">Dauer</target></trans-unit>
+      <trans-unit id="sys_file_metadata.color_space" xml:space="preserve" approved="yes">
+        <source>Color Space</source>
+      <target state="translated">Farbraum</target></trans-unit>
+      <trans-unit id="sys_file_metadata.pages" xml:space="preserve" approved="yes">
+        <source>Number of Pages</source>
+      <target state="translated">Anzahl der Seiten</target></trans-unit>
+      <trans-unit id="sys_file_metadata.language" xml:space="preserve" approved="yes">
+        <source>File Language</source>
+      <target state="translated">Sprache</target></trans-unit>
+      <trans-unit id="sys_file_metadata.fe_groups" xml:space="preserve" approved="yes">
+        <source>Frontend Permission</source>
+      <target state="translated">Frontend-Berechtigungen</target></trans-unit>
+      <trans-unit id="sys_file_metadata.width" xml:space="preserve" approved="yes">
+        <source>Width</source>
+      <target state="translated">Breite</target></trans-unit>
+      <trans-unit id="sys_file_metadata.height" xml:space="preserve" approved="yes">
+        <source>Height</source>
+      <target state="translated">Höhe</target></trans-unit>
+      <!-- sys_file_metadata tabs -->
+      <trans-unit id="tabs.metadata" xml:space="preserve" approved="yes">
+        <source>Metadata</source>
+      <target state="translated">Metadaten</target></trans-unit>
+      <!-- sys_file_metadata placeholder -->
+      <trans-unit id="placeholder.keywords" xml:space="preserve" approved="yes">
+        <source>Keywords1, keywords2, ...</source>
+      <target state="translated">Schlüsselwort 1, Schlüsselwort 2, ...</target></trans-unit>
+      <!-- sys_file_metadata palette -->
+      <trans-unit id="palette.metrics" xml:space="preserve" approved="yes">
+        <source>Metrics</source>
+      <target state="translated">Metriken</target></trans-unit>
+      <trans-unit id="palette.geo_location" xml:space="preserve" approved="yes">
+        <source>Geo Location</source>
+      <target state="translated">Geo-Location</target></trans-unit>
+      <trans-unit id="palette.visibility" xml:space="preserve" approved="yes">
+        <source>Visibility</source>
+      <target state="translated">Sichtbarkeit</target></trans-unit>
+      <trans-unit id="palette.content_date" xml:space="preserve" approved="yes">
+        <source>Content Date</source>
+      <target state="translated">Datum des Inhalts</target></trans-unit>
+      <!-- fe_groups fields -->
+      <trans-unit id="fe_groups.files" xml:space="preserve" approved="yes">
+        <source>Allowed files</source>
+      <target state="translated">Zulässige Dateien</target></trans-unit>
+    </body>
+  </file>
+</xliff>

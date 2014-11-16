@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_labels_tablabel">Sprache</label>
+      <label index="mlang_labels_tabdescr">Wählen Sie eine Sprache aus, die im Backend und Frontend verfügbar sein soll. Stellt eine Aktualisierung der ausgewählten Sprachen zur Verfügung.</label>
+      <label index="mlang_tabs_tab">Sprache</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle">htmlArea RTE &gt; Tabellenoperationen</label>
+      <label index=".description">Diese Funktion bietet mehrere Werkzeuge, um im RTE-Bearbeitungsbereich Tabellen zu erstellen und zu bearbeiten.</label>
+      <label index=".details"/>
+      <label index=".image"/>
+      <label index=".image_descr"/>
+      <label index=".seeAlso">xEXT_rtehtmlarea_TableOperations:InsertTable,
+xEXT_rtehtmlarea_TableOperations:TO_table_prop,
+xEXT_rtehtmlarea_TableOperations:TO_table_restyle,
+xEXT_rtehtmlarea_TableOperations:TO_toggle_borders,
+xEXT_rtehtmlarea_TableOperations:TO_row_prop,
+xEXT_rtehtmlarea_TableOperations:TO_row_insert_above,
+xEXT_rtehtmlarea_TableOperations:TO_row_insert_under,
+xEXT_rtehtmlarea_TableOperations:TO_row_delete,
+xEXT_rtehtmlarea_TableOperations:TO_row_split,
+xEXT_rtehtmlarea_TableOperations:TO_col_prop,
+xEXT_rtehtmlarea_TableOperations:TO_column_insert_before,
+xEXT_rtehtmlarea_TableOperations:TO_column_insert_after,
+xEXT_rtehtmlarea_TableOperations:TO_column_delete,
+xEXT_rtehtmlarea_TableOperations:TO_column_split,
+xEXT_rtehtmlarea_TableOperations:TO_cell_prop,
+xEXT_rtehtmlarea_TableOperations:TO_cell_insert_before,
+xEXT_rtehtmlarea_TableOperations:TO_cell_insert_after,
+xEXT_rtehtmlarea_TableOperations:TO_cell_delete,
+xEXT_rtehtmlarea_TableOperations:TO_cell_split,
+xEXT_rtehtmlarea_TableOperations:TO_cell_merge</label>
+      <label index="InsertTable.alttitle">Tabelle einfügen</label>
+      <label index="InsertTable.image">EXT:rtehtmlarea/extensions/TableOperations/skin/images/insert_table.gif</label>
+      <label index="InsertTable.image_descr">Symbol "Tabelle einfügen".</label>
+      <label index="InsertTable.description">Erstellen Sie eine neue Tabelle und fügen Sie sie in den Bearbeitungsbereich ein.</label>
+      <label index="InsertTable.details"/>
+      <label index="InsertTable.seeAlso"/>
+      <label index="TO_table_prop.alttitle"/>
+      <label index="TO_table_prop.image"/>
+      <label index="TO_table_prop.image_descr"/>
+      <label index="TO_table_prop.description"/>
+      <label index="TO_table_prop.details"/>
+      <label index="TO_table_prop.seeAlso"/>
+      <label index="caption.alttitle"/>
+      <label index="caption.description"/>
+      <label index="caption.details"/>
+      <label index="summary.alttitle"/>
+      <label index="summary.description"/>
+      <label index="summary.details"/>
+      <label index="numberOfRows.alttitle"/>
+      <label index="numberOfRows.description"/>
+      <label index="numberOfRows.details"/>
+      <label index="numberOfColumns.alttitle"/>
+      <label index="numberOfColumns.description"/>
+      <label index="numberOfColumns.details"/>
+      <label index="tableHeaders.alttitle"/>
+      <label index="tableHeaders.description"/>
+      <label index="tableHeaders.details"/>
+      <label index="tableStyle.alttitle"/>
+      <label index="tableStyle.description"/>
+      <label index="tableStyle.details"/>
+      <label index="Table_class_selector.alttitle"/>
+      <label index="Table_class_selector.description"/>
+      <label index="Table_body_class_selector.alttitle"/>
+      <label index="Table_body_class_selector.description"/>
+      <label index="Table_header_class_selector.alttitle"/>
+      <label index="Table_header_class_selector.description"/>
+      <label index="Table_footer_class_selector.alttitle"/>
+      <label index="Table_footer_class_selector.description"/>
+      <label index="Class_selector.alttitle"/>
+      <label index="Class_selector.description"/>
+      <label index="cellSpacing.alttitle"/>
+      <label index="cellSpacing.description"/>
+      <label index="cellPadding.alttitle"/>
+      <label index="cellPadding.description"/>
+      <label index="Table_width.alttitle"/>
+      <label index="Table_width.description"/>
+      <label index="Table_height.alttitle"/>
+      <label index="Table_height.description"/>
+      <label index="Width_unit.alttitle"/>
+      <label index="Width_unit.description"/>
+      <label index="Height_unit.alttitle"/>
+      <label index="Height_unit.description"/>
+      <label index="tableFloat.alttitle"/>
+      <label index="tableFloat.description"/>
+      <label index="textAlignment.alttitle"/>
+      <label index="textAlignment.description"/>
+      <label index="verticalAlignment.alttitle"/>
+      <label index="verticalAlignment.description"/>
+      <label index="borderStyle.alttitle"/>
+      <label index="borderStyle.description"/>
+      <label index="borderWidth.alttitle"/>
+      <label index="borderWidth.description"/>
+      <label index="borderColor.alttitle"/>
+      <label index="borderColor.description"/>
+      <label index="collapsedBorders.alttitle"/>
+      <label index="collapsedBorders.description"/>
+      <label index="frames.alttitle"/>
+      <label index="frames.description"/>
+      <label index="rules.alttitle"/>
+      <label index="rules.description"/>
+      <label index="textColor.alttitle"/>
+      <label index="textColor.description"/>
+      <label index="backgroundColor.alttitle"/>
+      <label index="backgroundColor.description"/>
+      <label index="backgroundImage.alttitle"/>
+      <label index="backgroundImage.description"/>
+      <label index="TO_table_restyle.alttitle"/>
+      <label index="TO_table_restyle.image"/>
+      <label index="TO_table_restyle.image_descr"/>
+      <label index="TO_table_restyle.description"/>
+      <label index="TO_table_restyle.details"/>
+      <label index="TO_toggle_borders.alttitle"/>
+      <label index="TO_toggle_borders.image"/>
+      <label index="TO_toggle_borders.image_descr"/>
+      <label index="TO_toggle_borders.description"/>
+      <label index="TO_toggle_borders.details"/>
+      <label index="TO_row_prop.alttitle"/>
+      <label index="TO_row_prop.image"/>
+      <label index="TO_row_prop.image_descr"/>
+      <label index="TO_row_prop.description"/>
+      <label index="TO_row_prop.details"/>
+      <label index="TO_row_prop.seeAlso"/>
+      <label index="rowGroup.alttitle"/>
+      <label index="rowGroup.description"/>
+      <label index="rowGroup.details"/>
+      <label index="Row_width.alttitle"/>
+      <label index="Row_width.description"/>
+      <label index="Row_height.alttitle"/>
+      <label index="Row_height.description"/>
+      <label index="TO_row_insert_above.alttitle"/>
+      <label index="TO_row_insert_above.image"/>
+      <label index="TO_row_insert_above.image_descr"/>
+      <label index="TO_row_insert_above.description"/>
+      <label index="TO_row_insert_above.details"/>
+      <label index="TO_row_insert_under.alttitle"/>
+      <label index="TO_row_insert_under.image"/>
+      <label index="TO_row_insert_under.image_descr"/>
+      <label index="TO_row_insert_under.description"/>
+      <label index="TO_row_insert_under.details"/>
+      <label index="TO_row_delete.alttitle"/>
+      <label index="TO_row_delete.image"/>
+      <label index="TO_row_delete.image_descr"/>
+      <label index="TO_row_delete.description"/>
+      <label index="TO_row_delete.details"/>
+      <label index="TO_row_split.alttitle"/>
+      <label index="TO_row_split.image"/>
+      <label index="TO_row_split.image_descr"/>
+      <label index="TO_row_split.description"/>
+      <label index="TO_row_split.details"/>
+      <label index="TO_row_split.seeAlso"/>
+      <label index="TO_col_prop.alttitle"/>
+      <label index="TO_col_prop.image"/>
+      <label index="TO_col_prop.image_descr"/>
+      <label index="TO_col_prop.description"/>
+      <label index="TO_col_prop.details"/>
+      <label index="TO_col_prop.seeAlso"/>
+      <label index="columnCellsType.alttitle"/>
+      <label index="columnCellsType.description"/>
+      <label index="TO_column_insert_before.alttitle"/>
+      <label index="TO_column_insert_before.image"/>
+      <label index="TO_column_insert_before.image_descr"/>
+      <label index="TO_column_insert_before.description"/>
+      <label index="TO_column_insert_before.details"/>
+      <label index="TO_column_insert_after.alttitle"/>
+      <label index="TO_column_insert_after.image"/>
+      <label index="TO_column_insert_after.image_descr"/>
+      <label index="TO_column_insert_after.description"/>
+      <label index="TO_column_insert_after.details"/>
+      <label index="TO_column_delete.alttitle"/>
+      <label index="TO_column_delete.image"/>
+      <label index="TO_column_delete.image_descr"/>
+      <label index="TO_column_delete.description"/>
+      <label index="TO_column_delete.details"/>
+      <label index="TO_column_split.alttitle"/>
+      <label index="TO_column_split.image"/>
+      <label index="TO_column_split.image_descr"/>
+      <label index="TO_column_split.description"/>
+      <label index="TO_column_split.details"/>
+      <label index="TO_column_split.seeAlso"/>
+      <label index="TO_cell_prop.alttitle"/>
+      <label index="TO_cell_prop.image"/>
+      <label index="TO_cell_prop.image_descr"/>
+      <label index="TO_cell_prop.description"/>
+      <label index="TO_cell_prop.details"/>
+      <label index="TO_cell_prop.seeAlso"/>
+      <label index="cellType.alttitle"/>
+      <label index="cellType.description"/>
+      <label index="cellAbbreviation.alttitle"/>
+      <label index="cellAbbreviation.description"/>
+      <label index="Cell_width.alttitle"/>
+      <label index="Cell_width.description"/>
+      <label index="Cell_height.alttitle"/>
+      <label index="Cell_height.description"/>
+      <label index="TO_cell_insert_before.alttitle"/>
+      <label index="TO_cell_insert_before.image"/>
+      <label index="TO_cell_insert_before.image_descr"/>
+      <label index="TO_cell_insert_before.description"/>
+      <label index="TO_cell_insert_before.details"/>
+      <label index="TO_cell_insert_after.alttitle"/>
+      <label index="TO_cell_insert_after.image"/>
+      <label index="TO_cell_insert_after.image_descr"/>
+      <label index="TO_cell_insert_after.description"/>
+      <label index="TO_cell_insert_after.details"/>
+      <label index="TO_cell_delete.alttitle"/>
+      <label index="TO_cell_delete.image"/>
+      <label index="TO_cell_delete.image_descr"/>
+      <label index="TO_cell_delete.description"/>
+      <label index="TO_cell_delete.details"/>
+      <label index="TO_cell_split.alttitle"/>
+      <label index="TO_cell_split.image"/>
+      <label index="TO_cell_split.image_descr"/>
+      <label index="TO_cell_split.description"/>
+      <label index="TO_cell_split.details"/>
+      <label index="TO_cell_split.seeAlso"/>
+      <label index="TO_cell_merge.alttitle"/>
+      <label index="TO_cell_merge.image"/>
+      <label index="TO_cell_merge.image_descr"/>
+      <label index="TO_cell_merge.description"/>
+      <label index="TO_cell_merge.details"/>
+      <label index="TO_cell_merge.seeAlso"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

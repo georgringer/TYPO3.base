@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="cssstyledcontent.config.setPageTSconfig">Seiten-TSconfig standardmäßig setzen: Wenn Sie diese Erweiterung in dieser Datenbank standmäßig nutzen, dann aktivieren Sie diese Option. Sie brauchen dann kein css_styled_content-spezifisches Seiten-TSconfig für jede Seite setzen; was Sie andernfalls sehr wohl müssten!</label>
+      <label index="cssstyledcontent.config.removePositionTypes">Unbenutzte Positionierungstypen entfernen: Diese Option wird diejenigen Bildausrichtungen deaktivieren, die keinen Sinn ergeben (es bleiben nur "über links", "mittig" und "rechts").</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

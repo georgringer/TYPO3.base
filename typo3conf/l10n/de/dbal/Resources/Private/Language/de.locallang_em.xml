@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="dbal.config.sql_query.passthrough">MySQL-Weitergabe aktivieren: Unterstützung der Methode $GLOBALS['TYPO3_DB']-&gt;sql_query() in DBAL ist nur experimentell. Ihre Verwendung sollte vermieden werden. Wenn aktiv, bewirkt diese Option, dass DBAL nicht versucht, den Query zu parsen und ihn stattdessen im Ist-Zustand an MySQL weitergibt, so als wäre DBAL nicht geladen.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

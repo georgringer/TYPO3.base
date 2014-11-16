@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Kategorie-Datensatz</label>
+      <label index=".details">Kategorie für News-Datensätze.</label>
+      <label index="_.seeAlso">Siehe auch Webseite http://www.news.com/</label>
+      <label index="sys_language_uid.description">Sprache der Kategorie</label>
+      <label index="hidden.description">Versteckte Kategorien werden nie im Frontend angezeigt.</label>
+      <label index="title.description">Titel der Kategorie</label>
+      <label index="parentcategory.description">Wählen Sie eine übergeordnete Kateogorie zu diesem Datensatz um einen Kategoriebaum zu erstellen.</label>
+      <label index="image.description">Optionales Bild einer Kategorie.</label>
+      <label index="description.description">Optionale Beschreibung einer Kategorie.</label>
+      <label index="single_pid.description"/>
+      <label index="shortcut.description">Optionaler Link einer Kategorie.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

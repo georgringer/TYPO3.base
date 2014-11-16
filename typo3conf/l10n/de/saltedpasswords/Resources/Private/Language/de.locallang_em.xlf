@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="saltedpasswords" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="saltedpasswords.config.checkConfigurationFE" xml:space="preserve" approved="yes">
+        <source>Frontend configuration check</source>
+      <target state="translated">Überprüfung der Frontendkonfiguration</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.checkConfigurationBE" xml:space="preserve" approved="yes">
+        <source>Backend configuration check</source>
+      <target state="translated">Überprüfung der Backendkonfiguration</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.FE.enabled" xml:space="preserve" approved="yes">
+        <source>Enable FE: Enable SaltedPasswords in the frontend</source>
+      <target state="translated">Im FE aktivieren: SaltedPasswords im Frontend aktivieren</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.FE.saltedPWHashingMethod" xml:space="preserve" approved="yes">
+        <source>Hashing method for the frontend: Defines salted hashing method to use. Choose "Portable PHP password hashing" to stay compatible with other CMS (e.g. Drupal, Wordpress). Choose "MD5 salted hashing" to reuse TYPO3 passwords for OS level authentication (other servers could use TYPO3 passwords). Choose "Blowfish salted hashing" for advanced security to reuse passwords on OS level (Blowfish might not be supported on your system TODO).</source>
+      <target state="translated">Hash-Methode für das Frontend: Legt fest, welche Hash-Methode benutzt wird. Wählen Sie "Portables PHP-Passwort-Hashing", um mit anderen CMS kompatibel zu bleiben (z.B. Drupal oder WordPress). Wählen Sie "MD5-salted Hashing", um TYPO3-Passwörter für die Authentifizierung auf Betriebssystemebene wiederzuverwenden (andere Server können TYPO3-Passwörter verwenden). Wählen Sie "Blowfish-salted Hashing" für zusätzliche Sicherheit und um Passwörter auf Betriebssystemebene wiederzuverwenden (Blowfish wird nicht auf allen Systemen unterstützt).</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.BE.saltedPWHashingMethod" xml:space="preserve" approved="yes">
+        <source>Hashing method for the backend: Defines salted hashing method to use. Choose "Portable PHP password hashing" to stay compatible with other CMS (e.g. Drupal, Wordpress). Choose "MD5 salted hashing" to reuse TYPO3 passwords for OS level authentication (other servers could use TYPO3 passwords). Choose "Blowfish salted hashing" for advanced security to reuse passwords on OS level (Blowfish might not be supported on your system TODO).</source>
+      <target state="translated">Hash-Methode für das Backend: Legt fest, welche Hash-Methode benutzt wird. Wählen Sie "Portables PHP-Passwort-Hashing", um mit anderen CMS kompatibel zu bleiben (z.B. Drupal oder WordPress). Wählen Sie "MD5-salted Hashing", um TYPO3-Passwörter für die Authentifizierung auf Betriebssystemebene wiederzuverwenden (andere Server können TYPO3-Passwörter verwenden). Wählen Sie "Blowfish-salted Hashing" für zusätzliche Sicherheit und um Passwörter auf Betriebssystemebene wiederzuverwenden (Blowfish wird nicht auf allen Systemen unterstützt).</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.checkConfigurationFE2" xml:space="preserve" approved="yes">
+        <source>Frontend configuration check</source>
+      <target state="translated">Überprüfung der Frontendkonfiguration</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.FE.forceSalted" xml:space="preserve" approved="yes">
+        <source>Force salted passwords: Enforce usage of SaltedPasswords. Old MD5 hashed passwords will stop working.</source>
+      <target state="translated">Saltedpasswords erzwingen: Benutzung von saltedpasswords erzwingen. Alte MD5-Hashes von Passwörtern werden nicht mehr funktionieren.</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.FE.onlyAuthService" xml:space="preserve" approved="yes">
+        <source>Exclusive FE usage: If enabled and authentication fails, no further authentication service will be tried.</source>
+      <target state="translated">Exklusive Benutzung im FE: Wenn aktiviert und die Authentifizierung schlägt fehl, wird kein weiterer Dienst mehr probiert.</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.FE.updatePasswd" xml:space="preserve" approved="yes">
+        <source>Update FE user passwords: Keep existing FE user passwords but automatically convert them to the salted hash format during authentication (will not work if forceSalted is used).</source>
+      <target state="translated">Passwörter der FE-Benutzer aktualisieren: Vorhandene Passwörter der FE-Benutzer beibehalten, aber sie während der Authentifizierung automatisch zu saltedpasswords konvertieren (wird nicht funktionieren, wenn forceSalted gesetzt ist).</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.checkConfigurationBE2" xml:space="preserve" approved="yes">
+        <source>Backend configuration check</source>
+      <target state="translated">Überprüfung der Backendkonfiguration</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.BE.forceSalted" xml:space="preserve" approved="yes">
+        <source>Force salted passwords: Enforce usage of SaltedPasswords. Old MD5 hashed passwords will stop working.</source>
+      <target state="translated">Saltedpasswords erzwingen: Benutzung von saltedpasswords erzwingen. Alte MD5-Hashes von Passwörtern werden nicht mehr funktionieren.</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.BE.onlyAuthService" xml:space="preserve" approved="yes">
+        <source>Exclusive BE usage: If enabled and authentication fails, no further authentication service will be tried.</source>
+      <target state="translated">Exklusive Benutzung im BE: Wenn aktiviert und die Authentifizierung schlägt fehl, wird kein weiterer Dienst mehr probiert.</target></trans-unit>
+      <trans-unit id="saltedpasswords.config.BE.updatePasswd" xml:space="preserve" approved="yes">
+        <source>Update BE user passwords: Keep existing BE user passwords but automatically convert them to the salted hash format during authentication (will not work if forceSalted is used).</source>
+      <target state="translated">Passwörter der BE-Benutzer aktualisieren: Vorhandene Passwörter der BE-Benutzer beibehalten, aber sie während der Authentifizierung automatisch zu saltedpasswords konvertieren (wird nicht funktionieren, wenn forceSalted gesetzt ist).</target></trans-unit>
+    </body>
+  </file>
+</xliff>

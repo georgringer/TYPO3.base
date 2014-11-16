@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Tag Datensatz</label>
+      <label index=".details">EIn Artikel kann mit folgenden Tags versehen werden</label>
+      <label index="_.seeAlso">Mehr Informationen unter http://www.montagmorgen.at/</label>
+      <label index="hidden.description">Versteckte Datensätze werden im Frontend nicht angezeigt</label>
+      <label index="title.description">Titel des Tags</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

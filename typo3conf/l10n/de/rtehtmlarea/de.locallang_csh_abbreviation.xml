@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Eine Abkürzung stellt die Kurzform einer Zeichenkette dar. Die Abkürzung kann auf eine bestimmte Sprache beschränkt werden.</label>
+      <label index=".details">Definierte Abkürzungen werden im htmlArea RTE-Dialog "Abkürzungen" verwendet.
+Eine definierte Abkürzung kann so konfiguriert werden, dass sie nur beim Bearbeiten von Inhalt einer bestimmten Sprache genutzt werden kann.</label>
+      <label index=".seeAlso">xEXT_rtehtmlarea_Acronym</label>
+      <label index="term.description">Tragen Sie die zu kürzende Zeichenkette ein.</label>
+      <label index="acronym.description">Tragen Sie die Kurzform der Zeichenkette ein.</label>
+      <label index="hidden.description">Wählen Sie diese Option wenn die Verfügbarkeit des Eintrags für Nicht-Administratoren deaktiviert werden soll.</label>
+      <label index="type.description">Wählen Sie den Typ der Abkürzung.</label>
+      <label index="type.details">Eine definierte Abkürzung kann einen von zwei Typen haben: Abkürzung oder Akronym. Diese entsprechen den HTML-Elementen abbr und acronym. Beachten Sie bitte, dass Akronyme in neuen Versionen von HTML als deprecated markiert sind.</label>
+      <label index="starttime.description">Geben Sie die Zeit an, ab der die Abkürzung für Nicht-Administratoren verfügbar sein soll.
+Wenn keine Zeit bestimmt wird, steht die Abkürzung allen Nutzern des RTE sofort zur Verfügung, sofern sie nicht versteckt wurde.</label>
+      <label index="endtime.description">Geben Sie das Datum und die Zeit an, ab der die Abkürzung für Nicht-Administratoren nicht mehr verfügbar sein soll.
+Wenn keine Zeit bestimmt wird, steht die Abkürzung allen Nutzern des RTE unbeschränkt zur Verfügung, sofern sie nicht versteckt wurde.</label>
+      <label index="sys_language_uid.description">Wählen Sie die Sprache der Inhaltselemente aus, in der die Abkürzung genutzt werden darf.</label>
+      <label index="static_lang_isocode.description">Wählen Sie die Sprache, für die die Abkürzung bereit stehen soll.</label>
+      <label index="static_lang_isocode.details">Die ausgewählte Sprache wird für das Sprachattribut desjenigen HTML-Elements als Wert gesetzt, das für das jeweilige Inhaltselement eingefügt wurde.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

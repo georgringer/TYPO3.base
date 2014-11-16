@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="scheduler.config.maxLifetime">Maximale Lebenszeit: Geben Sie eine maximale Lebenszeit des Tasks an (in Minuten). Wenn ein Task nach Ablauf dieser Zeit noch läuft, wird er aus der Ausführungsliste entfernt (aber nicht angehalten).</label>
+      <label index="scheduler.config.enableBELog">Protokollierung aktivieren: Wenn aktiviert, werden Anfang und Ende jedes ausgeführten Tasks in das TYPO3-BE-Protokoll geschrieben. Während dies beim Setup bequem ist, kann es Ihnen langfristig das BE-Log mit unnützen Daten füllen.</label>
+      <label index="scheduler.config.showSampleTasks">Beispieltasks aktivieren: Wenn aktiviert, können Sie die Beispiel- und Testtasks nutzen, die mit dem Planer mitgeliefert werden. Bevor Sie dies deaktivieren, stellen Sie sicher, dass keine dieser Tasks geplant sind. Sie müssen außerdem den Konfigurations-Cache löschen.</label>
+      <label index="scheduler.config.useAtdaemon">"at"-Dämon benutzen: Dies erlaubt, die nächste Ausführung des Planers automatisch zu planen. Auf Ihrem System muss dazu der "at"-Dämon installiert und zur Benutzung durch PHP konfiguriert sein.</label>
+      <label index="scheduler.config.listShowTaskDescriptionAsHover">Beschreibung der Tasks als Tooltipp anzeigen: Wenn deaktiviert, werden die Beschreibungen der Tasks unter dem Auftragsnamen in der Planerliste gezeigt.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

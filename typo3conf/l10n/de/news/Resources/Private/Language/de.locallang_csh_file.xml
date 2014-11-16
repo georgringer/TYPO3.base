@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".description">Datei-Datensatz</label>
+      <label index=".details">Relation zu Dateien</label>
+      <label index="_.seeAlso">Mehr Informationen unter http://www.montagmorgen.at/</label>
+      <label index="hidden.description">Versteckte Elemente werden auf der Website nicht angezeigt.</label>
+      <label index="title.description">Optionaler Titel</label>
+      <label index="description.description">Optionale Beschreibung</label>
+      <label index="file.description">Jede (erlaubte) Datei.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

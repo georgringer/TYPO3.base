@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index=".alttitle"/>
+      <label index=".description"/>
+      <label index=".syntax"/>
+      <label index="task_class.alttitle"/>
+      <label index="task_class.description"/>
+      <label index="task_class.details"/>
+      <label index="task_disable.alttitle"/>
+      <label index="task_disable.description"/>
+      <label index="task_type.alttitle"/>
+      <label index="task_type.description"/>
+      <label index="task_start.alttitle"/>
+      <label index="task_start.description"/>
+      <label index="task_start.details"/>
+      <label index="task_end.alttitle"/>
+      <label index="task_end.description"/>
+      <label index="task_end.details"/>
+      <label index="task_frequency.alttitle"/>
+      <label index="task_frequency.description"/>
+      <label index="task_frequency.details"/>
+      <label index="task_frequency.seeAlso"/>
+      <label index="task_multiple.alttitle"/>
+      <label index="task_multiple.description"/>
+      <label index="task_email.alttitle"/>
+      <label index="task_email.description"/>
+      <label index="task_sleepTime.alttitle"/>
+      <label index="task_sleepTime.description"/>
+      <label index="task_cachingFrameworkGarbageCollection_selectedBackends.alttitle"/>
+      <label index="task_cachingFrameworkGarbageCollection_selectedBackends.description"/>
+      <label index="task_tableGarbageCollection_numberOfDays.alttitle"/>
+      <label index="task_tableGarbageCollection_numberOfDays.description"/>
+      <label index="task_tableGarbageCollection_table.alttitle"/>
+      <label index="task_tableGarbageCollection_table.description"/>
+      <label index="task_tableGarbageCollection_allTables.alttitle"/>
+      <label index="task_tableGarbageCollection_allTables.description"/>
+      <label index="task_recyclerGarbageCollection_numberOfDays.alttitle"/>
+      <label index="task_recyclerGarbageCollection_numberOfDays.description"/>
+    </languageKey>
+  </data>
+</T3locallangExt>
