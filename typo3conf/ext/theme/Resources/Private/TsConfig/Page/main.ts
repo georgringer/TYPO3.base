@@ -32,8 +32,8 @@ mod {
 
 	# Default flag
 	SHARED {
-		defaultLanguageLabel = English
-		defaultLanguageFlag = gb.gif
+		defaultLanguageLabel = German
+		defaultLanguageFlag = de.gif
 	}
 }
 

@@ -1,0 +1,4 @@
+# Custom development environment, loads development constants
+# but overlays them with own constants of custom_constants.txt - can be used for local development, e.g. to modify url
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Configuration/TypoScript/Development/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Configuration/TypoScript/Custom/custom_constants.txt">

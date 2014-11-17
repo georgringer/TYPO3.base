@@ -4,8 +4,44 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9f79ba7713a5dc1b3eae9ec41c0b889",
+    "hash": "06d5c9fefd1e13a865b07fb14bc92ee1",
     "packages": [
+        {
+            "name": "georgringer/be-acl-file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/georgringer/be_acl_file.git",
+                "reference": "d21f1ffe06418190412bb5bac0955034cf115bf3"
+            },
+            "require": {
+                "typo3/cms-core": "6.2.*"
+            },
+            "replace": {
+                "be_acl_file": "*"
+            },
+            "type": "typo3-cms-extension",
+            "description": "BE access via files",
+            "time": "2014-10-06 11:14:05"
+        },
+        {
+            "name": "georgringer/coreapi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/georgringer/ext-coreapi.git",
+                "reference": "bb43435e81ac87ff06f3d7ddccf306adac8ea9fe"
+            },
+            "require": {
+                "typo3/cms-core": "6.2.*"
+            },
+            "replace": {
+                "coreapi": "*"
+            },
+            "type": "typo3-cms-extension",
+            "description": "The EXT:coreapi should provide a simple to use API for common core features.",
+            "time": "2014-10-06 11:14:07"
+        },
         {
             "name": "typo3-ter/formhandler",
             "version": "2.0.1",
@@ -1115,6 +1151,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "georgringer/coreapi": 20,
+        "georgringer/be-acl-file": 20,
         "mikey179/vfsstream": 20
     },
     "prefer-stable": false,

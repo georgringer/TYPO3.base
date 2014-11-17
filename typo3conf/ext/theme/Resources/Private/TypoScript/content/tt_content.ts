@@ -8,44 +8,7 @@ tt_content {
 
 	# Every content element is wrapped inside a div
 	stdWrap.outerWrap = <div class="element">|</div>
-	stdWrap.outerWrap.override {
-		if {
-			value = 26,27,28,29,30
-			isInList.field = section_frame
-		}
-		cObject = CASE
-		cObject {
-			#stdWrap.noTrimWrap = |<div class="element |">|</div>|
-			key.field = section_frame
 
-			26 = TEXT
-			26.value = <div class="element hidden">|</div>
-			27 = TEXT
-			27.value = <div class="element visible-phone">|</div>
-			28 = TEXT
-			28.value = <div class="element visible-tablet">|</div>
-			29 = TEXT
-			29.value = <div class="element hidden-desktop">|</div>
-			30 = TEXT
-			30.value = <div class="element visible-desktop">|</div>
-		}
-	}
-
-	stdWrap.innerWrap.cObject {
-		default.20.40 = CASE
-		default.20.40 {
-			key.field = layout
-
-			22 = TEXT
-			22.value = alert bg-warning
-			23 = TEXT
-			23.value = alert bg-success
-			24 = TEXT
-			24.value = alert bg-info
-			25 = TEXT
-			25.value = alert bg-danger
-		}
-	}
 
 	stdWrap.innerWrap2.cObject = COA
 	stdWrap.innerWrap2.cObject {
@@ -82,7 +45,7 @@ lib.stdheader.10.stdWrap.override {
 #-------------------------------------------------------------------------------
 #	Responsive images
 #-------------------------------------------------------------------------------
-tt_content {
+_tt_content {
 	image.20 {
 		1.params = class="thumbnail"
 

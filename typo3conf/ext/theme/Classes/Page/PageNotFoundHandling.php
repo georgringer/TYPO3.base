@@ -1,41 +1,92 @@
 <?php
-namespace GeorgRinger\Theme\Page;
-/***************************************************************
- *  Copyright notice
+namespace Cyberhouse\Theme\Page;
+/**
+ * This file is part of the TYPO3 CMS project.
  *
- *  (c) 2014 Georg Ringer <georg.ringer@cyberhouse.at>
- *  All rights reserved
+ * It is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License, either version 2
+ * of the License, or any later version.
  *
- *  This script is part of the TYPO3 project. The TYPO3 project is
- *  free software; you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation; either version 2 of the License, or
- *  (at your option) any later version.
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
  *
- *  The GNU General Public License can be found at
- *  http://www.gnu.org/copyleft/gpl.html.
- *
- *  This script is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  This copyright notice MUST APPEAR in all copies of the script!
- ***************************************************************/
+ * The TYPO3 project - inspiring people to share!
+ */
 
 use TYPO3\CMS\Core\Error\Http\PageNotFoundException;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\HttpUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
+use TYPO3\CMS\Extbase\Mvc\Web\Routing\UriBuilder;
+use TYPO3\CMS\Extbase\Object\ObjectManagerInterface;
+use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController;
 
 /**
  * Class PageNotFoundHandling
  * It can be registered in FE with
- * 'pageNotFound_handling' => 'USER_FUNCTION:typo3conf/ext/theme/Classes/Page/PageNotFoundHandling.php:GeorgRinger\\Theme\\Page\\PageNotFoundHandling->pageNotFound'
+ * 'pageNotFound_handling' => 'USER_FUNCTION:Cyberhouse\Theme\Page\PageNotFoundHandling->pageNotFound'
  *
- * @package GeorgRinger\Theme\Page
+ * error pages can be configured per host by using
+ * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages'] map,
+ * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages']['_DEFAULT'] will be used if no key corresponds to a correct key
+ * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages']['www.domain1.tld'] should contain the error page Uid for the host www.domain1.tld
+ * 
+ * best to set via AdditionalConfiguration*.php
+ *
+ * @package Cyberhouse\Theme\Page
  */
 class PageNotFoundHandling {
+
+	/**
+	 * @var UriBuilder
+	 */
+	protected $uriBuilder;
+
+	/**
+	 * @var ObjectManagerInterface
+	 */
+	protected $objectManager;
+
+	/**
+	 * @var ConfigurationManagerInterface
+	 */
+	protected $configurationManager;
+
+	public function __construct() {
+		$this->initializeEnvironment();
+	}
+
+	protected function initializeEnvironment() {
+		/**
+		 * @var ConfigurationManager $configurationManager
+		 * @var ContentObjectRenderer $contentObjectRenderer
+		 */
+		$this->objectManager = GeneralUtility::makeInstance('TYPO3\CMS\Extbase\Object\ObjectManager');
+		$configurationManager = $this->objectManager->get('TYPO3\CMS\Extbase\Configuration\ConfigurationManager');
+		$this->configurationManager = &$configurationManager;
+
+		$contentObjectRenderer = GeneralUtility::makeInstance('TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer');
+
+		$this->configurationManager->setContentObject($contentObjectRenderer);
+		$this->uriBuilder = $this->objectManager->get('TYPO3\CMS\Extbase\Mvc\Web\Routing\UriBuilder');
+		if (empty($GLOBALS['TSFE']->sys_page)) {
+			$GLOBALS['TSFE']->sys_page = GeneralUtility::makeInstance('TYPO3\CMS\Frontend\Page\PageRepository');
+		}
+		if (empty($GLOBALS['TSFE']->tmpl)) {
+			$GLOBALS['TSFE']->initTemplate();
+		}
+		if (!isset($GLOBALS['TSFE']->config)) {
+			$GLOBALS['TSFE']->config = array();
+		}
+		if (empty($GLOBALS['TSFE']->config['config'])) {
+			$GLOBALS['TSFE']->config['config'] = array();
+			$GLOBALS['TSFE']->config['config']['tx_realurl_enable'] = TRUE;
+			$GLOBALS['TSFE']->config['mainScript'] = 'index.php';
+		}
+	}
+
 
 	/**
 	 * Page not found handling
@@ -48,23 +99,25 @@ class PageNotFoundHandling {
 	public function pageNotFound(array $params, TypoScriptFrontendController $ref = NULL) {
 		$domain = GeneralUtility::getIndpEnv('TYPO3_SITE_URL');
 		$domainInformation = parse_url($domain);
-		$errorPageUid = NULL;
+		$errorPageUid = (int)$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages']['_DEFAULT'];
 
-		switch ($domainInformation['host']) {
-			case 'www.domain1.tld':
-				$errorPageUid = 123;
-				break;
+
+		if (!empty($domainInformation['host'])) {
+			$tmpErrorPageUid = (int)$GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages'][$domainInformation['host']];
+			if ($tmpErrorPageUid > 0) {
+				$errorPageUid = $tmpErrorPageUid;
+			}
 		}
 
-		if (!is_null($errorPageUid)) {
-			$link = $domain . 'index.php?id=' . $errorPageUid;
-
+		if ($errorPageUid > 0) {
 			$sysLanguageUid = $this->getSysLanguage($ref);
+
+			$this->uriBuilder->reset()->setTargetPageUid($errorPageUid)->setCreateAbsoluteUri(TRUE);
 			if ($sysLanguageUid > 0) {
-				$link .= '&L=' . $sysLanguageUid;
+				$this->uriBuilder->setArguments(array('L' => $sysLanguageUid));
 			}
 
-			HttpUtility::redirect($link, HttpUtility::HTTP_STATUS_404);
+			HttpUtility::redirect($this->uriBuilder->buildFrontendUri(), HttpUtility::HTTP_STATUS_404);
 		}
 
 		$message = 'The page not found handling could not handle the request. The original message was: "' . $params['reasonText'] . '" with URL "' . $params['currentUrl'] . '"';

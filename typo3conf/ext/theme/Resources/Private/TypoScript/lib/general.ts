@@ -26,7 +26,7 @@ lib.general.logo {
 #	10 = IMAGE
 #	10 {
 #		ATagParams = class="img-responsive"
-#		file = EXT:theme/Resources/Public/Template/img/logo.gif
+#		file = EXT:theme/Resources/Public/Template/img/logo.png
 #		stdWrap.typolink.parameter = {$plugin.theme_configuration.url}
 #	}
 }

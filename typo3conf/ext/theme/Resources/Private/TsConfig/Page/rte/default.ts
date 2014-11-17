@@ -49,7 +49,7 @@ RTE.default {
 	RTEWidthOverride = 800
 
 	# RTE Stylesheet für benutzerdefinierte Formatauszeichnungen
-	#contentCSS = typo3conf/ext/theme_theme/Resources/Public/Css/rte.css
+	#contentCSS = typo3conf/ext/theme_theme/Resources/Public/Backend/Styles/css/rte.css
 
 	# Markup options
 	enableWordClean = 1

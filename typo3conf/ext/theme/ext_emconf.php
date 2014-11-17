@@ -11,9 +11,9 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Theme Base',
-	'description' => 'Theme Base',
-	'category' => 'theme',
+	'title' => 'Theme',
+	'description' => 'Theme',
+	'category' => 'fe',
 	'shy' => 0,
 	'dependencies' => '',
 	'conflicts' => '',

@@ -15,7 +15,7 @@ page.meta {
 # <title> - Tag
 # **********************************************************
 includeLibs.pagetitle = EXT:theme/Classes/Page/TitleTag.php
-config.titleTagFunction = GeorgRinger\Theme\Page\TitleTag->get
+config.titleTagFunction = Cyberhouse\Theme\Page\TitleTag->get
 config.titleTagFunction {
 	data = page:subtitle // page:title
 
@@ -64,7 +64,7 @@ page.headerData.32 {
 includeLibs.alternativepages = EXT:theme/Classes/Page/AlternativeLanguageTag.php
 page.headerData.33 = USER
 page.headerData.33 {
-	userFunc = GeorgRinger\Theme\Page\AlternativeLanguageTag->get
+	userFunc = Cyberhouse\Theme\Page\AlternativeLanguageTag->get
 
 	# Use either one of those, see below for its configuration
 	useRealurl = 1

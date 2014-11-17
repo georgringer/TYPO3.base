@@ -12,7 +12,6 @@
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Resources/Private/Extensions/extbase.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Resources/Private/Extensions/indexed_search.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Resources/Private/Extensions/rgsmoothgallery.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Resources/Private/Extensions/news/news.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme/Resources/Private/Extensions/formhandler/formhandler.ts">
 

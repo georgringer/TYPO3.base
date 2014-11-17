@@ -39,35 +39,19 @@ page {
 
 	# JS files to be included
 	includeJSFooter {
-		jQuery = EXT:theme/Resources/Public/Template/js/jquery.min.js
-		jQueryUI = EXT:theme/Resources/Public/Template/js/jquery-ui-1.10.3.js
-		bootstrap = EXT:theme/Resources/Public/Template/js/bootstrap.min.js
-		fancybox = EXT:theme/Resources/Public/Template/js/jquery.fancybox.js
-		flexslider = EXT:theme/Resources/Public/Template/js/jquery.flexslider.js
-		validate = EXT:theme/Resources/Public/Template/js/jquery.validate.js
-		placeholder = EXT:theme/Resources/Public/Template/js/placeholder.js
-		ias = EXT:theme/Resources/Public/Template/js/jquery-ias.js
-		util = EXT:theme/Resources/Public/Template/js/util.js
-		typo3 = EXT:theme/Resources/Public/Template/js/typo3.js
-		customjs = EXT:theme/Resources/Public/Template/js/script.js
-	}
+		main = EXT:theme/Resources/Public/Template/js/bottom.js
+    }
 
 	includeJS {
-		html5shiv = EXT:theme/Resources/Public/Template/js/html5shiv.js
-		html5shiv {
+		ie = EXT:theme/Resources/Public/Template/js/ie.js
+		ie {
 			allWrap = <!--[if lt IE 9]>|<![endif]-->
 			excludeFromConcatenation = 1
 			forceOnTop = 1
 		}
-		html5shiv-printshiv = EXT:theme/Resources/Public/Template/js/html5shiv-printshiv.js
-		html5shiv-printshiv {
-			allWrap = <!--[if lt IE 8]>|<![endif]-->
-			excludeFromConcatenation = 1
-			forceOnTop = 1
-		}
-	}
+		headerLibs = EXT:theme/Resources/Public/Template/js/top.js
+    }
 
-	# Add some good classes to the bodytag to make a styling of special pages easier
 	bodyTagCObject = COA
 	bodyTagCObject   {
 		stdWrap.wrap = <body class="|">
@@ -127,5 +111,6 @@ page {
 	page.includeJS.issueCollector {
 		excludeFromConcatenation = 1
 		external = 1
+		disableCompression = 1
 	}
 [global]

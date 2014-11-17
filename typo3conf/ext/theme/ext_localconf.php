@@ -16,8 +16,10 @@ if ($context === 'Development' || $context === 'Testing') {
 
 // Modify flexform values
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_befunc.php']['getFlexFormDSClass'][$_EXTKEY] =
-	'GeorgRinger\\Theme\\Hooks\\BackendUtilityHook';
+	'GeorgRinger\\Theme\\Hooks\\Backend\\BackendUtilityHook';
 
 // Backend layouts
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['BackendLayoutDataProvider']['file']
 	= 'GeorgRinger\\Theme\\View\\BackendLayout\\FileProvider';
+
+unset($GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/template.php']['preStartPageHook']['TYPO3\\CMS\\T3skin\\Hook\\StyleGenerationHook']);

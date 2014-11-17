@@ -34,8 +34,8 @@ config {
 	inlineStyle2TempFile = 1
 	removeDefaultCss = 1
 	removePageCss = 1
-	compressJs = {$plugin.theme_configuration.assets.compress}
-	compressCss = {$plugin.theme_configuration.assets.compress}
+	compressJs = 0
+	compressCss = 0
 	concatenateJs = {$plugin.theme_configuration.assets.merge}
 	concatenateCss = {$plugin.theme_configuration.assets.merge}
 
@@ -65,14 +65,11 @@ config {
 	sendCacheHeaders = 1
 
 	headerComment (
-######################################################################
-#                                   __                               #
-#                .--------.-----.--|  |.-----.----.-----.            #
-#                |        |  _  |  _  ||  -__|   _|     |            #
-#                |__|__|__|_____|_____||_____|__| |__|__|            #
-#                                                                    #
-#              https://github.com/georgringer/theme          #
-######################################################################
+####################################################################################
+#                                                                                  #
+#                                TYPO3.CMS base                                    #
+#                                                                                  #
+####################################################################################
 	)
 
 
