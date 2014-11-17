@@ -1,5 +1,5 @@
 <?php
-namespace Cyberhouse\Theme\Page;
+namespace GeorgRinger\Theme\Page;
 
 /**
  * This file is part of the TYPO3 CMS project.

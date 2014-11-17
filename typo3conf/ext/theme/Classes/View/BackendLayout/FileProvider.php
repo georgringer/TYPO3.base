@@ -1,5 +1,5 @@
 <?php
-namespace Cyberhouse\Theme\View\BackendLayout;
+namespace GeorgRinger\Theme\View\BackendLayout;
 /**
  * This file is part of the TYPO3 CMS project.
  *

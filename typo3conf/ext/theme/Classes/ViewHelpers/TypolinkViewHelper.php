@@ -1,5 +1,5 @@
 <?php
-namespace Cyberhouse\Theme\ViewHelpers;
+namespace GeorgRinger\Theme\ViewHelpers;
 /**
  * This file is part of the TYPO3 CMS project.
  *

@@ -1,5 +1,5 @@
 <?php
-namespace Cyberhouse\Theme\Error;
+namespace GeorgRinger\Theme\Error;
 
 /**
  * This file is part of the TYPO3 CMS project.

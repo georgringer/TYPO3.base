@@ -1,5 +1,5 @@
 <?php
-namespace Cyberhouse\Theme\Page;
+namespace GeorgRinger\Theme\Page;
 /**
  * This file is part of the TYPO3 CMS project.
  *
@@ -26,16 +26,16 @@ use TYPO3\CMS\Frontend\Controller\TypoScriptFrontendController;
 /**
  * Class PageNotFoundHandling
  * It can be registered in FE with
- * 'pageNotFound_handling' => 'USER_FUNCTION:Cyberhouse\Theme\Page\PageNotFoundHandling->pageNotFound'
+ * 'pageNotFound_handling' => 'USER_FUNCTION:GeorgRinger\Theme\Page\PageNotFoundHandling->pageNotFound'
  *
  * error pages can be configured per host by using
  * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages'] map,
  * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages']['_DEFAULT'] will be used if no key corresponds to a correct key
  * $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['theme']['errorPages']['www.domain1.tld'] should contain the error page Uid for the host www.domain1.tld
- * 
+ *
  * best to set via AdditionalConfiguration*.php
  *
- * @package Cyberhouse\Theme\Page
+ * @package GeorgRinger\Theme\Page
  */
 class PageNotFoundHandling {
 

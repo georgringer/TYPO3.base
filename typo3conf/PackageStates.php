@@ -486,15 +486,6 @@ return array (
       array (
       ),
     ),
-    'news' => 
-    array (
-      'state' => 'active',
-      'packagePath' => 'typo3conf/ext/news/',
-      'classesPath' => 'Classes/',
-      'suggestions' => 
-      array (
-      ),
-    ),
     'theme' => 
     array (
       'state' => 'active',
@@ -502,9 +493,15 @@ return array (
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
-        0 => 'news',
-        1 => 'realurl',
-        2 => 'formhandler',
+      ),
+    ),
+    'news' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/news/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
       ),
     ),
     'realurl' => 
@@ -674,6 +671,28 @@ return array (
     array (
       'state' => 'inactive',
       'packagePath' => 'typo3conf/ext/formhandler/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'coreapi' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'georgringer/coreapi',
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/coreapi/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+    ),
+    'be_acl_file' => 
+    array (
+      'manifestPath' => '',
+      'composerName' => 'georgringer/be-acl-file',
+      'state' => 'inactive',
+      'packagePath' => 'typo3conf/ext/be_acl_file/',
       'classesPath' => 'Classes/',
       'suggestions' => 
       array (
