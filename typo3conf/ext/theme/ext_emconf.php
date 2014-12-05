@@ -1,7 +1,7 @@
 <?php
 
 ########################################################################
-# Extension Manager/Repository config file for ext "a21glossary".
+# Extension Manager/Repository config file for ext "theme".
 #
 # Auto generated 17-02-2012 15:52
 #
